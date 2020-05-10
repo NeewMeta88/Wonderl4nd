@@ -1,0 +1,1404 @@
+@import url('https://fonts.googleapis.com/css?family=Suez+One|Carter+One|Indie+Flower|Orbitron:wght@500|Inconsolata:wght@500');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: Trebuchet MS, Helvetica;
+}
+
+/* Шапка сайта */
+
+header {
+  width: 100%;
+  padding: 10px 0.5% 0px 0.5%;
+  background: transparent;
+  float: left;
+  position: fixed;
+}
+
+header #logo {
+  color: #2de41d;
+  cursor: pointer;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  overflow: hidden;
+}
+header #logo span{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  height: 50px;
+
+
+}
+
+header #logo:hover span{
+  cursor: pointer;
+  animation: shuffle steps(7) 1.4s infinite;
+}
+@keyframes shuffle {
+  0%
+  {
+    transform: translateY(0px);
+  }
+  100%
+  {
+    transform: translateY(-350px);
+  }
+}
+
+header #logo span {
+  font-size: 2.3em;
+  line-height: 50px;
+  margin-left: 40px;
+  font-family: 'Carter One', cursive;
+}
+
+@media (min-width: 701px) {
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+  }
+
+  #about {
+    float: right;
+    width: 67%;
+  }
+}
+
+@media (max-width: 700px) {
+  #logo {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  #about {
+    float: left;
+    width: 100%;
+  }
+}
+
+#about {
+  text-align: center;
+  font-size: 1em;
+  line-height: 40px;
+}
+
+#about > a {
+  color: #a9e494;
+  position:relative;
+  display: inline-block;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  overflow: hidden;
+  transition: 0.2s;
+  margin-top: -5px;
+font-family: 'Carter One', cursive;
+
+}
+
+#about > a:hover {
+  color: #8cbe7a;
+  background: #a9e494;
+  box-shadow: 0 0 10px #a9e494, 0 0 40px #a9e494, 0 0 80px #a9e494;
+}
+
+#about > a:not(:last-child) {
+  margin-right: 7%;
+}
+
+/* Стили для фиксированной шапки */
+
+.fixed {
+  z-index: 5000;
+  background-color: #252a27;
+  border-bottom: 1px solid #141715;
+}
+
+header.fixed #logo {
+  color: #2196f3;
+  transition: 1.5s;
+}
+
+.fixed #about a {color: #a9e494;}
+.fixed #about a:hover {color: #8cbe7a;
+background: #a9e494;}
+
+/* Главный блок на сайте */
+
+#top {
+  width: 100%;
+  background-image:url(valorantBackground.jpg);
+  background-blend-mode: multiply;
+  background-color: #5d605d;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+#top h1{
+    position: absolute;
+  	font-family: 'Indie Flower', cursive;
+    padding-top: 20%;
+  	text-shadow:
+  	0 0 10px rgba(255,255,255,.8),
+  	0 0 20px rgba(255,255,255,.8),
+  	0 0 22px rgba(255,255,255,.8),
+  	0 0 40px rgba(101, 251, 36, 0.8),
+  	0 0 60px rgba(101, 251, 36, 0.8),
+  	0 0 80px rgba(101, 251, 36, 0.8),
+  	0 0 100px rgba(101, 251, 36, 0.5),
+  	0 0 140px rgba(101, 251, 36, 0.5),
+  	0 0 200px rgba(101, 251, 36, 0.5);
+  	animation: neon 3s infinite;
+  	animation-timing-function: linear;
+  }
+  @keyframes neon {
+    0% {
+      opacity: 1;
+    }
+    45% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    55% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 0.5;
+    }
+    63% {
+      opacity: 1;
+    }
+    93% {
+      opacity: 1;
+    }
+    95% {
+      opacity: 0.5;
+    }
+    97% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /*--------------------------------------РАСШИРЕНИЯ----------------------------*/
+  @media (width: 3840px){
+    #top h1{
+      position: absolute;
+      margin-left: 1180px;
+      margin-top: 275px;
+      font-size: 250px;
+    }
+    #top {
+      height: 1470px;
+    }
+  #main .more a{
+    font-size: 40px;
+    margin-left: 0px;
+    margin-top: -70px;
+    width: 275px;
+  }
+  #overview h2 {font-size: 6.7em}
+  #overview h4 {font-size: 3.7em}
+
+  /*----------------------------------NEW----------------------------*/
+  #overview{
+    height: 820px;/*700px*/
+  }
+  #overview .container .card{
+    margin-left: 10%;/*3.5%*/
+  }
+  #overview .container .card .face.face1 .content h3{
+    font-size: 2.2em;
+  }
+  #overview .container .card .face.face2{
+    font-size: 1.7em;
+  }
+  #main{
+    height: 250px;/*140px*/
+  }
+
+  .fixed{
+  height: 90px;
+}
+
+  #overview .container .card .face1{
+    width: 600px;
+    height: 400px;
+  }
+  #overview .container .card .face2{
+    width: 600px;
+    height: 200px;
+  }
+  #overview .container{
+  margin-left: 120px;
+  }
+  #about a{
+    font-size: 45px;
+  }
+  header #logo span{
+    font-size: 3.2em;
+  }
+
+  #main .intro h2{
+    font-size: 6em;
+  }
+  #main .intro span{
+    font-size: 4.5em;
+  }
+  #main .intro{
+    margin-top: 0px;
+  }
+  #main .text span{
+    font-size: 2.6em;
+  }
+  #main .text{
+    margin-top: 10px;
+  }
+  }
+
+  @media (width: 2560px){
+
+      #top {
+        font-size: 3em;
+        height: 1000px;
+      }
+    #top h1{
+      position: absolute;
+      margin-left: 780px;
+      margin-top: 175px;
+      font-size: 170px;
+    }
+    #top {
+      height: 1000px;
+    }
+  #main .more a{
+    font-size: 40px;
+    margin-left: 0px;
+    margin-top: -50px;
+    width: 135px;
+  }
+  #overview h2 {font-size: 5.3em}
+  #overview h4 {font-size: 2.4em}
+
+  /*----------------------------------NEW----------------------------*/
+  #overview{
+    height: 700px;/*700px*/
+  }
+  #overview .container .card{
+    margin-left: 4%;/*3.5%*/
+  }
+  #overview .container .card .face.face1 .content h3{
+    font-size: 1.6em;
+  }
+  #overview .container .card .face.face2{
+    font-size: 1.4em;
+  }
+  #main{
+    height: 140px;/*140px*/
+  }
+
+    .fixed{
+    height: 70px;
+  }
+
+  #overview .container .card .face1{
+    width: 450px;
+    height: 300px;
+  }
+  #overview .container .card .face2{
+    width: 450px;
+    height: 200px;
+  }
+  #overview .container{
+  margin-left: 30px;
+  }
+  #about a{
+    font-size: 30px;
+  }
+  header #logo span{
+    font-size: 3.2em;
+  }
+  #main .intro h2{
+    font-size: 4.2em;
+  }
+  #main .intro span{
+    font-size: 3em;
+  }
+  #main .intro{
+    margin-top: -20px;
+  }
+  #main .text span{
+    font-size: 1.7em;
+  }
+  }
+
+  @media (width: 2048px){
+  #top h1{
+    position: absolute;
+    margin-left: 625px;
+    margin-top: 125px;
+    font-size: 170px;
+  }
+  #top {
+    height: 1000px;
+  }
+#main .more a{
+  font-size: 40px;
+  margin-left: 0px;
+  margin-top: -50px;
+  width: 135px;
+}
+#overview h2 {font-size: 5em}
+#overview h4 {font-size: 2.1em}
+
+/*----------------------------------NEW----------------------------*/
+#overview{
+  height: 700px;/*700px*/
+}
+#overview .container .card{
+  margin-left: 4%;/*3.5%*/
+}
+#overview .container .card .face.face1 .content h3{
+  font-size: 1.6em;
+}
+#overview .container .card .face.face2{
+  font-size: 1.4em;
+}
+#main{
+  height: 140px;/*140px*/
+}
+
+  .fixed{
+  height: 65px;
+}
+/*----------------------------------NEW-----------------------------*/
+
+#overview .container .card .face1{
+  width: 350px;
+  height: 200px;
+}
+#overview .container .card .face2{
+  width: 350px;
+  height: 200px;
+}
+#overview .container{
+margin-left: 30px;
+}
+#about a{
+  font-size: 30px;
+}
+header #logo span{
+  font-size: 3.2em;
+}
+#main .intro h2{
+  font-size: 4.2em;
+}
+#main .intro span{
+  font-size: 3em;
+}
+#main .intro{
+  margin-top: -30px;
+}
+#main .text span{
+  font-size: 1.7em;
+}
+#main .text{
+  margin-top: -30px;
+}
+#main .more a{
+  margin-top: -100px;
+}
+}
+
+  @media (width:1920px){
+
+  #top h1{
+  margin-left: 585px;
+  margin-top: 130px;
+  font-size: 130px;
+}
+
+#top {
+  height: 1000px;
+}
+
+  #main .more a{
+    font-size: 25px;
+    margin-right: 1500px;
+    margin-top: -60px;
+    width: 70px;
+
+  }
+
+  #main .intro{
+    margin-top: -10px;
+  }
+
+  #overview h2 {font-size: 4.3em}
+  #overview h4 {font-size: 1.4em}
+
+  /*----------------------------------NEW----------------------------*/
+  #overview{
+    height: 700px;/*700px*/
+  }
+  #overview .container .card{
+    margin-left: 4%;/*3.5%*/
+  }
+  #overview .container .card .face.face1 .content h3{
+    font-size: 1.5em;
+  }
+  #overview .container .card .face.face2{
+    font-size: 1.2em;
+  }
+  #main{
+    height: 140px;/*140px*/
+  }
+    .fixed{
+    height: 60px;
+  }
+
+  #overview .container .card .face{
+    width: 300px;
+    height: 200px;
+  }
+
+  #overview .container{
+    margin-left: 70px;
+  }
+  #main .intro h2{
+    font-size: 3.4em;
+  }
+  #main .intro span{
+  font-size: 2.2em;
+  }
+  #main .text span{
+  font-size: 1.35em;
+  }
+
+}
+  @media (width:1680px){
+
+    #top {
+      height: 1000px;
+    }
+
+    #top h1{
+    margin-left: 560px;
+    margin-top: 140px;
+    font-size: 130px;
+  }
+
+    #main .more a{
+      font-size: 25px;
+      margin-right: 1500px;
+      margin-top: -60px;
+      width: 70px;
+
+    }
+
+    #main .intro{
+      margin-top: -10px;
+    }
+
+    #overview h2 {font-size: 4.3em}
+    #overview h4 {font-size: 1.4em}
+
+    #overview{
+      height: 700px;/*700px*/
+    }
+    #overview .container .card{
+      margin-left: 4%;/*3.5%*/
+    }
+    #overview .container .card .face.face1 .content h3{
+      font-size: 1.5em;
+    }
+    #overview .container .card .face.face2{
+      font-size: 1.2em;
+    }
+    #main{
+      height: 140px;/*140px*/
+    }
+
+      .fixed{
+      height: 60px;
+    }
+
+    #overview .container .card .face1{
+      width: 280px;
+      height: 200px;
+    }
+    #overview .container .card .face2{
+      width: 280px;
+      height: 200px;
+    }
+
+    #overview .container{
+      margin-left: 20px;
+    }
+    #main .intro h2{
+      font-size: 3.4em;
+    }
+    #main .intro span{
+    font-size: 2.2em;
+    }
+    #main .text span{
+    font-size: 1.3em;
+    }
+  }
+    @media (width:1600px){
+
+        #top {
+          height: 1000px;
+        }
+
+      #top h1{
+      margin-left: 560px;
+      margin-top: 155px;
+      font-size: 120px;
+    }
+
+      #main .more a{
+        font-size: 25px;
+        margin-right: 1500px;
+        margin-top: -60px;
+        width: 70px;
+
+      }
+
+      #main .intro{
+        margin-top: -10px;
+      }
+
+      #overview h2 {font-size: 4.3em}
+      #overview h4 {font-size: 1.4em}
+
+      #overview{
+        height: 700px;/*700px*/
+      }
+      #overview .container .card{
+        margin-left: 4%;/*3.5%*/
+      }
+      #overview .container .card .face.face1 .content h3{
+        font-size: 1.45em;
+      }
+      #overview .container .card .face.face2{
+        font-size: 1.2em;
+      }
+      #main{
+        height: 140px;/*140px*/
+      }
+
+        .fixed{
+        height: 57px;
+      }
+
+      #overview .container .card .face1{
+        width: 265px;
+        height: 200px;
+      }
+      #overview .container .card .face2{
+        width: 265px;
+        height: 200px;
+      }
+
+      #overview .container{
+        margin-left: 20px;
+      }
+      #main .intro h2{
+        font-size: 3.4em;
+      }
+      #main .intro span{
+      font-size: 2.2em;
+      }
+      #main .text span{
+      font-size: 1.3em;
+      }
+
+  }
+  @media (width:1440px){
+
+      #top {
+        height: 1000px;
+      }
+
+    #top h1{
+    margin-left: 560px;
+    margin-top: 185px;
+    font-size: 120px;
+  }
+
+    #main .more a{
+      font-size: 25px;
+      margin-right: 1500px;
+      margin-top: -110px;
+      width: 70px;
+
+    }
+
+    #main .intro{
+      margin-top: -20px;
+    }
+
+    #overview h2 {font-size: 4.5em}
+    #overview h4 {font-size: 1.6em}
+
+    #overview{
+      height: 700px;/*700px*/
+    }
+    #overview .container .card{
+      margin-left: 4%;/*3.5%*/
+    }
+    #overview .container .card .face.face1 .content h3{
+      font-size: 1.4em;
+    }
+    #overview .container .card .face.face2{
+      font-size: 1.15em;
+    }
+    #main{
+      height: 140px;/*140px*/
+    }
+
+      .fixed{
+      height: 57px;
+    }
+
+    #overview .container .card .face1{
+      width: 230px;
+      height: 200px;
+      margin-bottom: 5px;
+      margin-right: 10px;
+    }
+    #overview .container .card .face2{
+      width: 220px;
+      height: 150px;
+      margin-left: 5px;
+    }
+
+    #overview .container{
+      margin-left: 20px;
+    }
+    #main .intro h2{
+      font-size: 3.6em;
+    }
+    #main .intro span{
+    font-size: 2.9em;
+    }
+    #main .text span{
+    font-size: 1.4em;
+    }
+    #main .text{
+    margin-top: -10px;
+    }
+    #overview .container .card:hover .face.face2{
+      margin-top: -6px;
+    }
+
+}
+@media (width:1400px){
+
+  #about{
+    margin-right: 300px;
+    margin-top: -55px;
+  }
+
+    #top {
+      height: 1000px;
+    }
+
+  #top h1{
+  margin-left: 555px;
+  margin-top: 195px;
+  font-size: 120px;
+}
+
+  #main .more a{
+    font-size: 25px;
+    margin-right: 1500px;
+    margin-top: -60px;
+    width: 85px;
+
+  }
+
+  #main .intro{
+    margin-top: -20px;
+  }
+
+  #overview h2 {font-size: 4.5em}
+  #overview h4 {font-size: 1.6em}
+
+  #overview{
+    height: 700px;/*700px*/
+  }
+  #overview .container .card{
+    margin-left: 3.5%;/*3.5%*/
+  }
+  #overview .container .card .face.face1 .content h3{
+    font-size: 1.35em;
+  }
+  #overview .container .card .face.face2{
+    font-size: 1.1em;
+  }
+  #main{
+    height: 120px;/*140px*/
+  }
+
+    .fixed{
+    height: 57px;
+  }
+
+  #overview .container .card .face1{
+    width: 230px;
+    height: 200px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+  #overview .container .card .face2{
+    width: 220px;
+    height: 150px;
+    margin-left: 5px;
+
+  }
+
+  #overview .container{
+    margin-left: 20px;
+  }
+  #main .intro h2{
+    font-size: 3.6em;
+  }
+  #main .intro span{
+  font-size: 2.9em;
+  }
+  #main .text span{
+  font-size: 1.4em;
+  }
+  #main .text{
+  margin-top: -10px;
+  }
+  #overview .container .card:hover .face.face2{
+    margin-top: -6px;
+  }
+
+}
+
+@media (width:1280px){
+
+  #about{
+    margin-right: 455px;
+    margin-top: -55px;
+  }
+
+    #top {
+      height: 1000px;
+    }
+
+  #top h1{
+  margin-left: 555px;
+  margin-top: 225px;
+  font-size: 120px;
+}
+
+  #main .more a{
+    font-size: 25px;
+    margin-right: 1500px;
+    margin-top: -60px;
+    width: 85px;
+
+  }
+
+  #main .intro{
+    margin-top: -20px;
+  }
+
+  #overview h2 {font-size: 4.3em}
+  #overview h4 {font-size: 1.5em}
+
+  #overview{
+    height: 700px;/*700px*/
+  }
+  #overview .container .card{
+    margin-left: 3.5%;/*3.5%*/
+  }
+  #overview .container .card .face.face1 .content h3{
+    font-size: 1.3em;
+  }
+  #overview .container .card .face.face2{
+    font-size: 1em;
+  }
+  #main{
+    height: 120px;/*140px*/
+  }
+
+    .fixed{
+    height: 57px;
+    width: 1265px;
+  }
+
+  #overview .container .card .face1{
+    width: 210px;
+    height: 200px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+  #overview .container .card .face2{
+    width: 200px;
+    height: 150px;
+    margin-left: 5px;
+
+  }
+
+  #overview .container{
+    margin-left: 20px;
+  }
+  #main .intro h2{
+    font-size: 3.6em;
+  }
+  #main .intro span{
+  font-size: 2.9em;
+  }
+  #main .text span{
+  font-size: 1.4em;
+  }
+  #main .text{
+  margin-top: -10px;
+  }
+  #overview .container .card:hover .face.face2{
+    margin-top: -6px;
+  }
+
+}
+@media (width:1152px){
+
+  #about{
+    margin-right: 35px;
+    margin-top: -55px;
+  }
+
+    #top {
+      height: 1000px;
+    }
+
+  #top h1{
+  margin-left: 530px;
+  margin-top: 260px;
+  font-size: 101px;
+}
+
+  #main .more a{
+    font-size: 25px;
+    margin-right: 1500px;
+    margin-top: -70px;
+    width: 55px;
+
+  }
+
+  #main .intro{
+    margin-top: -20px;
+  }
+
+  #overview h2 {font-size: 4.1em}
+  #overview h4 {font-size: 1.3em}
+
+  #overview{
+    height: 600px;/*700px*/
+  }
+  #overview .container .card{
+    margin-left: 2%;/*3.5%*/
+  }
+  #overview .container .card .face.face1 .content h3{
+    font-size: 1.2em;
+  }
+  #overview .container .card .face.face2{
+    font-size: 1em;
+  }
+  #main{
+    height: 120px;/*140px*/
+  }
+
+    .fixed{
+    height: 52px;
+    width: 1140px;
+  }
+
+  #overview .container .card .face1{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+  #overview .container .card .face2{
+    width: 190px;
+    height: 150px;
+    margin-left: 5px;
+
+  }
+
+  #overview .container{
+    margin-left: 20px;
+  }
+  #main .intro h2{
+    font-size: 3.2em;
+  }
+  #main .intro span{
+  font-size: 2.5em;
+  }
+  #main .text span{
+  font-size: 1.3em;
+  }
+  #main .text{
+  margin-top: -10px;
+  }
+  #overview .container .card:hover .face.face2{
+    margin-top: -6px;
+  }
+
+}
+
+@media (width:1024px){
+
+  #about{
+    margin-right: 40px;
+    margin-top: -55px;
+  }
+
+    #top {
+      height: 1000px;
+    }
+
+  #top h1{
+  margin-left: 520px;
+  margin-top: 320px;
+  font-size: 80px;
+}
+
+  #main .more a{
+    font-size: 25px;
+    margin-right: 1500px;
+    margin-top: -70px;
+    width: 42px;
+
+  }
+
+  #main .intro{
+    margin-top: -20px;
+  }
+
+  #overview h2 {font-size: 4.1em}
+  #overview h4 {font-size: 1.3em}
+
+  #overview{
+    height: 600px;/*700px*/
+  }
+  #overview .container .card{
+    margin-left: 2%;/*3.5%*/
+  }
+  #overview .container .card .face.face1 .content h3{
+    font-size: 1.2em;
+  }
+  #overview .container .card .face.face2{
+    font-size: 1em;
+  }
+  #main{
+    height: 120px;/*140px*/
+  }
+
+    .fixed{
+    height: 52px;
+    width: 1015px;
+  }
+
+  #overview .container .card .face1{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+  #overview .container .card .face2{
+    width: 190px;
+    height: 150px;
+    margin-left: 5px;
+
+  }
+
+  #overview .container{
+    margin-left: 20px;
+  }
+  #main .intro h2{
+    font-size: 3em;
+  }
+  #main .intro span{
+  font-size: 2.2em;
+  }
+  #main .text span{
+  font-size: 1.2em;
+  }
+  #main .text{
+  margin-top: -10px;
+  }
+  #overview .container .card:hover .face.face2{
+    margin-top: -6px;
+  }
+
+}
+
+@media (min-width: 1001px) {
+  #top {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 651px) {
+  #top {
+    font-size: 2em;
+    height: 600px;
+  }
+}
+
+@media (max-width: 650px) {
+  #top {
+    font-size: 1.3em;
+    padding-top: 50%;
+    height: 500px;
+  }
+}
+
+@media (max-width: 450px) {
+  #top {
+    font-size: 0.9em;
+  }
+}
+
+/* Блок с возможностями */
+
+#main {
+  float: left;
+  background-color: #252a27;
+  border-top: 3px solid #141715;
+  color: #484848;
+}
+
+#main .text span{
+  color: #817b7b;
+  font-family: 'Orbitron', sans-serif;
+}
+#main .intro span{
+  color: #9fbfee;
+  font-family: 'Inconsolata', monospace;
+}
+#main .intro h2{
+  color: #5291EF;
+  font-family: 'Inconsolata', monospace;
+}
+#main .more a{
+  color: #5291EF;
+  display: inline-block;
+  position: relative;
+  padding: 0px 100px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+font-family: 'Carter One', cursive;
+background: #325993;
+}
+
+#main .more a:hover{
+  color: #4173be;
+  background: #5291EF;
+  box-shadow: 0 0 10px #5291EF, 0 0 40px #5291EF, 0 0 80px #5291EF;
+}
+
+@media (min-width: 1401px) {
+  #main {
+    padding: 100px 20%;
+    width: 60%;
+  }
+}
+
+@media (max-width: 1400px) {
+  #main {
+    padding: 100px 10%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  #main div {
+    width: 98%!important;
+    margin-bottom: 20px;
+  }
+}
+
+#main div {
+  width: 48%;
+  margin-right: 2%;
+  float: left;
+}
+
+/* Блок с преимуществами */
+
+#overview {
+  float: left;
+  background-image:url(phone.gif);
+  background-blend-mode: multiply;
+  background-color: #5d605d;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#overview h2{
+  color: #6EDE3D;
+}
+#overview h4{
+  color: #B3E197;
+}
+#overview img {
+  float: left;
+  width: 100%;
+  height: 150px;
+  width: 150px;
+  margin-left: 3.5%;
+}
+
+#overview .container{
+  width: 1000px;
+  margin-top: 40px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+#overview .container .card{
+  position: relative;
+}
+
+#overview .container .card .face{
+  transition: 0.5s;
+}
+
+#overview .container .card .face.face1{
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+
+}
+
+#overview .container .card:hover .face.face1{
+  background: #B3E197;
+  transform: translateY(0px);
+}
+
+#overview .container .card .face.face1 .content{
+  opacity: 0.2;
+  transition: 0.5s;
+
+}
+
+#overview .container .card .face1{
+  box-shadow: 0 0 10px #332355, 0px 0px 40px  #332355, 0 0 80px #332355;
+}
+#overview .container .card:hover .face1{
+  box-shadow: 0 0 0px #332355, 0px 0px 0px  #332355, 0 0 0px #332355;
+}
+#overview .container .card:hover .face.face1 .content{
+  opacity: 1;
+}
+
+#overview .container .card .face.face1 .content img{
+  max-width: 150px;
+
+}
+
+#overview .container .card .face.face1 .content h3{
+  margin: 160px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+
+}
+
+#overview .container .card .face.face2{
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+  transform: translateY(-100px);
+}
+
+#overview .container .card:hover .face.face2{
+  transform: translateY(0);
+}
+
+#overview .container .card .face.face2 .content p{
+  margin: 0;
+  padding: 0;
+  color: #817b7b;
+}
+
+#overview .container .card .face.face2 .content a{
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+#overview .container .card .face.face2 .content a:hover{
+  background: #2A2D2B;
+  color: #fff;
+
+}
+
+#overview h2 {font-family: 'Inconsolata', monospace;}
+#overview h4 {font-family: 'Orbitron', sans-serif;margin-top: 10px;}
+
+/* Вопросы и ответы */
+
+#faq {
+  background-color: #2A2D2B;
+  border-top: 2px dashed #141715;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  font-family: 'Inconsolata', monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#faq,
+#faq::before,
+#faq::after{
+box-sizing: inherit;
+}
+
+#faq .container1{
+  width: 100%;
+  margin: 0 auto -40px auto;
+  padding: 0 10rem 0 10rem;
+  max-width: 80rem;
+}
+#faq section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion{
+  width: 30rem;
+}
+
+.accordion-item{
+  background-color: #283042;
+  border-radius: .4rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
+}
+
+.accordion-link{
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, .8);
+  text-decoration: none;
+  background-color: #283042;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.accordion-link ion-icon{
+  padding: .5rem;
+  color: #e7d5ff;
+  font-size: 2.1rem;
+}
+
+.accordion-link .bugaga{
+  display: none;
+}
+
+.answer{
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: #212838;
+}
+
+.answer::before{
+  content: "";
+  position: absolute;
+  width: .6rem;
+  height: 90%;
+  background-color: #B5D798;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.answer p{
+  color: rgba(255, 255, 255, .6);
+  font-size: 1.3rem;
+  padding: 1.4rem;
+}
+
+.accordion-item:target .answer{
+  max-height: 20rem;
+  transition: 1.6s;
+}
+
+.accordion-item:target .accordion-link .bugaga2{
+  display: none;
+}
+.accordion-item:hover .accordion-link .bugaga2{
+  color: yellow;
+}
+
+.accordion-item:target .accordion-link .bugaga{
+  display: block;
+}
+.accordion-item:target .accordion-link .bugaga{
+  color: yellow;
+}
