@@ -1398,11 +1398,10 @@ header.fixed #logo {
   text-align: center;
   justify-content: space-between;
   padding: .5rem;
+  background: linear-gradient(45deg, rgb(251, 0, 148, .7), rgb(0, 0, 255, .7));
   font-size: 2rem;
-  background-color: rgb(54, 55, 61);
-  background: linear-gradient(45deg, #fb0094, #0000ff);
   border-radius: .8rem;
-  box-shadow: 0 0 10px #332355, 0px 0px 40px #332355, 0 0 80px #332355;
+  box-shadow: 0 0 10px rgb(251, 0, 148), 0px 0px 20px rgb(0, 0, 255), 0 0 40px rgb(251, 0, 148);
 }
 
 #overview .box .tabble .tabble-box .tabble-box-el {
@@ -1445,7 +1444,7 @@ header.fixed #logo {
   0% {}
 
   50% {
-    background-color: rgb(232, 122, 233, .6);
+    background-color: rgb(232, 122, 233, .7);
   }
 
   100% {}
