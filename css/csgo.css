@@ -1400,8 +1400,9 @@ header.fixed #logo {
   padding: .5rem;
   font-size: 2rem;
   background-color: rgb(54, 55, 61);
-  border: 2px solid #d9542e;
+  background: linear-gradient(45deg, #fb0094, #0000ff);
   border-radius: .8rem;
+  box-shadow: 0 0 10px #332355, 0px 0px 40px #332355, 0 0 80px #332355;
 }
 
 #overview .box .tabble .tabble-box .tabble-box-el {
@@ -1410,9 +1411,6 @@ header.fixed #logo {
   margin: .4rem;
   border: 2px solid #BADE9A;
   border-radius: .4rem;
-}
-
-.knopka {
   display: flex;
   justify-content: center;
   color: #B3E197;
@@ -1421,14 +1419,8 @@ header.fixed #logo {
 #overview .box .tabble .tabble-box .tabble-box-el:hover {
   background-color: #B3E197;
   border: 2px solid #5f7750;
-}
-
-#overview .box .tabble .tabble-box .tabble-box-el:hover .knopka {
   color: #5f7750;
-}
-
-#overview .box .tabble .tabble-box .tabble-box-el:target .knopka {
-  background-color: #B3E197;
+  cursor: pointer;
 }
 
 #overview .box .func {
@@ -1437,6 +1429,26 @@ header.fixed #logo {
   height: 360px;
   margin: 0 30rem 0 25rem;
   border-radius: .8rem;
+  position: inherit;
+  color: #fff;
+}
+
+#f2, #f3, #f4, #f5 {
+  display: none;
+}
+
+.megaclass {
+  animation: fu 2.4s ease-in-out;
+}
+
+@keyframes fu {
+  0% {}
+
+  50% {
+    background-color: rgb(232, 122, 233, .6);
+  }
+
+  100% {}
 }
 
 #overview .box .func span {

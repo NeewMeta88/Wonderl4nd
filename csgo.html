@@ -16,11 +16,11 @@
       height: 200px;
     }
   </style>
-  <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+
 </head>
 
 <body>
+
   <header>
     <div id="logo" onclick="slowScroll('#top')">
       <span>Wonderl4nd</span>
@@ -59,27 +59,37 @@
     <div class="box">
       <div class="tabble">
         <div class="tabble-box">
-          <div class="tabble-box-el" id="knopka1">
-            <a class="knopka" href="#knopka1"><span>Esp</span></a>
+          <div class="tabble-box-el" id="b1">
+            <span id="s1">Esp</span>
           </div>
-          <div class="tabble-box-el" id="knopka2">
-            <a class="knopka" href="#knopka2"><span>Aim</span></a>
+          <div class="tabble-box-el" id="b2">
+            <span id="s2">Aim</span>
           </div>
-          <div class="tabble-box-el" id="knopka3">
-            <a class="knopka" href="#knopka3"><span>Bhop</span></a>
+          <div class="tabble-box-el" id="b3">
+            <span id="s3">Bhop</span>
           </div>
-          <div class="tabble-box-el" id="knopka4">
-            <a class="knopka" href="#knopka4"><span>Skinchanger</span></a>
+          <div class="tabble-box-el" id="b4">
+            <span id="s4">Skinchanger</span>
           </div>
-          <div class="tabble-box-el" id="knopka5">
-            <a class="knopka" href="#knopka5"><span>Radar</span></a>
+          <div class="tabble-box-el" id="b5">
+            <span id="s5">Radar</span>
           </div>
         </div>
       </div>
-      <div class="func">
-        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+      <div class="func" id="f1">
+        <span>KOROBKA 1</span>
+      </div>
+      <div class="func" id="f2">
+        <span>KOROBKA 2</span>
+      </div>
+      <div class="func" id="f3">
+        <span>KOROBKA 3</span>
+      </div>
+      <div class="func" id="f4">
+        <span>KOROBKA 4</span>
+      </div>
+      <div class="func" id="f5">
+        <span>KOROBKA 5</span>
       </div>
       <div class="picture">
         <img src="./css/cart3.png" alt="">
@@ -87,24 +97,27 @@
     </div>
   </div>
 
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-    function slowScroll(id) {
-      $('html, body').animate({
-        scrollTop: $(id).offset().top
-      }, 500);
-    }
-
-    $(document).on("scroll", function() {
-      if ($(window).scrollTop() === 0)
-        $("header").removeClass("fixed");
-      else
-        $("header").attr("class", "fixed");
-    });
-  </script>
-
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+<script src="java/text.js"></script>
+
+</script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+  $(document).on("scroll", function() {
+    if ($(window).scrollTop() === 0)
+      $("header").removeClass("fixed");
+    else
+      $("header").attr("class", "fixed");
+  });
+</script>
 
 </html>
