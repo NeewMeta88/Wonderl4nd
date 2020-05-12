@@ -588,15 +588,11 @@ header.fixed #logo {
   }
 
   #main .intro h2 {
-    font-size: 3.4em;
+    font-size: 4em;
   }
 
   #main .intro span {
-    font-size: 2.2em;
-  }
-
-  #main .text span {
-    font-size: 1.35em;
+    font-size: 2.6em;
   }
 }
 
@@ -1295,20 +1291,27 @@ header.fixed #logo {
 
 /* Блок с возможностями */
 #main {
-  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #252a27;
   border-top: 3px solid #141715;
   color: #484848;
 }
 
-#main .text span {
-  color: #817b7b;
-  font-family: 'Orbitron', sans-serif;
+#main .intro {
+  width: 650px;
+  margin-top: -4rem;
+}
+
+#main .more {
+  margin-right: -200px;
 }
 
 #main .intro span {
   color: #9fbfee;
   font-family: 'Inconsolata', monospace;
+  width: 100%;
 }
 
 #main .intro h2 {
@@ -1324,10 +1327,19 @@ header.fixed #logo {
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
-  overflow: hidden;
+  height: 120px;
+  text-align: center;
+  justify-content: center;
   transition: 0.2s;
   font-family: 'Carter One', cursive;
+  margin-top: -3rem;
   background: #325993;
+}
+
+#main .more a span {
+  padding-top: 1.2rem;
+  margin-left: -8rem;
+  position: absolute;
 }
 
 #main .more a:hover {
