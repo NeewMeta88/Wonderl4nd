@@ -858,6 +858,11 @@ header.fixed #logo {
 }
 
 @media (width:1400px) {
+  #main {
+    padding: 100px 10%;
+    width: 80%;
+  }
+
   #about {
     margin-right: 300px;
     margin-top: -55px;
@@ -1453,13 +1458,6 @@ header.fixed #logo {
   #main {
     padding: 100px 20%;
     width: 60%;
-  }
-}
-
-@media (max-width: 1400px) {
-  #main {
-    padding: 100px 10%;
-    width: 80%;
   }
 }
 
