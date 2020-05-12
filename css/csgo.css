@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Suez+One|Carter+One|Indie+Flower|Orbitron:wght@500|Inconsolata:wght@500');
+@import url('https://fonts.googleapis.com/css?family=Suez+One|Carter+One|Indie+Flower|Orbitron:wght@500|Inconsolata:wght@500|Raleway&display');
 
 * {
   margin: 0;
@@ -150,67 +150,63 @@ header.fixed #logo {
 
 /* Главный блок на сайте */
 #top {
+  font-family: 'Raleway', sans-serif;
   width: 100%;
   background-image: url(csgoBackground.jpg);
   background-blend-mode: multiply;
   background-color: #5d605d;
   background-size: cover;
   text-align: center;
-  color: #fff;
 }
 
 #top h1 {
   position: absolute;
-  font-family: 'Indie Flower', cursive;
-  padding-top: 20%;
-  text-shadow:
-    0 0 10px rgba(255, 255, 255, .8),
-    0 0 20px rgba(255, 255, 255, .8),
-    0 0 22px rgba(255, 255, 255, .8),
-    0 0 40px rgba(36, 97, 251, 0.8),
-    0 0 60px rgba(36, 97, 251, 0.8),
-    0 0 80px rgba(36, 97, 251, 0.8),
-    0 0 100px rgba(36, 97, 251, 0.5),
-    0 0 140px rgba(36, 97, 251, 0.5),
-    0 0 200px rgba(36, 97, 251, 0.5);
-  animation: neon 3s infinite;
-  animation-timing-function: linear;
+  transform: translate(-50%, -50%) skewY(-5deg);
+  border: 4px solid #0500ff;
+  top: 70%;
+  left: 49.5%;
+  padding: 20px 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0500ff, 0 0 30px #0500ff, inset 0 0 10px #0500ff, inset 0 0 30px #0500ff;
+  color: #ffffff;
+  text-shadow: 0 0 10px #0500ff, 0 0 20px #0500ff, 0 0 80px #0500ff, 0 0 120px #0500ff;
+  animation: animate 1.9s linear infinite;
 }
 
-@keyframes neon {
+#top h1 span {
+  animation: animate 1.5s linear infinite;
+}
+
+#top h1 span:nth-child(1) {
+  animation-delay: .25s;
+}
+
+#top h1 span:nth-child(2) {
+  animation-delay: .2s;
+}
+
+#top h1 span:nth-child(4) {
+  animation-delay: .35s;
+}
+
+#top h1 span:nth-child(5) {
+  animation-delay: .4s;
+}
+
+@keyframes animate {
   0% {
     opacity: 1;
   }
 
-  45% {
+  30% {
     opacity: 1;
+  }
+
+  40% {
+    opacity: .5;
   }
 
   50% {
-    opacity: 0.5;
-  }
-
-  55% {
-    opacity: 1;
-  }
-
-  60% {
-    opacity: 0.5;
-  }
-
-  63% {
-    opacity: 1;
-  }
-
-  93% {
-    opacity: 1;
-  }
-
-  95% {
-    opacity: 0.5;
-  }
-
-  97% {
     opacity: 1;
   }
 
@@ -223,8 +219,6 @@ header.fixed #logo {
 @media (width: 3840px) {
   #top h1 {
     position: absolute;
-    margin-left: 1180px;
-    margin-top: 275px;
     font-size: 250px;
   }
 
@@ -326,9 +320,7 @@ header.fixed #logo {
 
   #top h1 {
     position: absolute;
-    margin-left: 780px;
-    margin-top: 175px;
-    font-size: 170px;
+    font-size: 230px;
   }
 
   #top {
@@ -420,8 +412,7 @@ header.fixed #logo {
 @media (width: 2048px) {
   #top h1 {
     position: absolute;
-    margin-left: 625px;
-    margin-top: 125px;
+    left: 50%;
     font-size: 170px;
   }
 
@@ -504,7 +495,7 @@ header.fixed #logo {
   }
 
   #main .intro {
-    margin-top: -30px;
+    margin-: -30px;
   }
 
   #main .text span {
@@ -522,9 +513,10 @@ header.fixed #logo {
 
 @media (width:1920px) {
   #top h1 {
-    margin-left: 625px;
-    margin-top: 170px;
-    font-size: 260px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 130px;
   }
 
   #top {
@@ -588,11 +580,15 @@ header.fixed #logo {
   }
 
   #main .intro h2 {
-    font-size: 4em;
+    font-size: 3.4em;
   }
 
   #main .intro span {
-    font-size: 2.6em;
+    font-size: 2.2em;
+  }
+
+  #main .text span {
+    font-size: 1.35em;
   }
 }
 
@@ -602,8 +598,9 @@ header.fixed #logo {
   }
 
   #top h1 {
-    margin-left: 560px;
-    margin-top: 140px;
+    position: absolute;
+    top: 60%;
+    left: 53%;
     font-size: 130px;
   }
 
@@ -686,9 +683,10 @@ header.fixed #logo {
   }
 
   #top h1 {
-    margin-left: 560px;
-    margin-top: 155px;
-    font-size: 120px;
+    position: absolute;
+    top: 60%;
+    left: 56%;
+    font-size: 130px;
   }
 
   #main .more a {
@@ -770,9 +768,10 @@ header.fixed #logo {
   }
 
   #top h1 {
-    margin-left: 560px;
-    margin-top: 185px;
-    font-size: 120px;
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    font-size: 140px;
   }
 
   #main .more a {
@@ -870,9 +869,10 @@ header.fixed #logo {
   }
 
   #top h1 {
-    margin-left: 555px;
-    margin-top: 195px;
-    font-size: 120px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    font-size: 130px;
   }
 
   #main .more a {
@@ -970,9 +970,10 @@ header.fixed #logo {
   }
 
   #top h1 {
-    margin-left: 555px;
-    margin-top: 225px;
-    font-size: 120px;
+    position: absolute;
+    top: 80%;
+    left: 52%;
+    font-size: 130px;
   }
 
   #main .more a {
