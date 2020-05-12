@@ -178,7 +178,7 @@ header.fixed #logo {
 }
 
 #top h1 span:nth-child(1) {
-  animation-delay: .25s;
+  animation-delay: .3s;
 }
 
 #top h1 span:nth-child(2) {
@@ -186,11 +186,11 @@ header.fixed #logo {
 }
 
 #top h1 span:nth-child(4) {
-  animation-delay: .35s;
+  animation-delay: .30s;
 }
 
 #top h1 span:nth-child(5) {
-  animation-delay: .4s;
+  animation-delay: .45s;
 }
 
 @keyframes animate {

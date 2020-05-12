@@ -170,7 +170,7 @@ header.fixed #logo {
   box-shadow: 0 0 10px #ff00de, 0 0 30px #ff00de, inset 0 0 10px #ff00de, inset 0 0 30px #ff00de;
   color: #ffffff;
   text-shadow: 0 0 10px #ff00de, 0 0 20px #ff00de, 0 0 80px #ff00de, 0 0 120px #ff00de;
-  animation: animate 1.9s linear infinite;
+  animation: animate 1.75s linear infinite;
 }
 
 #top h1 span {
@@ -182,15 +182,19 @@ header.fixed #logo {
 }
 
 #top h1 span:nth-child(2) {
-  animation-delay: .2s;
+  animation-delay: .1s;
+}
+
+#top h1 span:nth-child(3) {
+  animation-delay: .40s;
 }
 
 #top h1 span:nth-child(4) {
-  animation-delay: .35s;
+  animation-delay: .2s;
 }
 
 #top h1 span:nth-child(5) {
-  animation-delay: .4s;
+  animation-delay: .50s;
 }
 
 /* #top h1 span:nth-child(6) {
