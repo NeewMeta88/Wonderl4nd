@@ -30,7 +30,7 @@ header {
 }
 
 header #logo {
-  color: #e41d1d;
+  color: #2de41d;
   cursor: pointer;
   position: relative;
   margin: 0;
@@ -103,7 +103,7 @@ header #logo span {
 }
 
 #about>a {
-  color: #e41d1d;
+  color: #a9e494;
   position: relative;
   display: inline-block;
   padding: 15px 30px;
