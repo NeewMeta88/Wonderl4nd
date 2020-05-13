@@ -601,6 +601,13 @@ header.fixed #logo {
 }
 
 @media (width:1680px) {
+  #about {
+    position: absolute;
+    float: right;
+    width: 67%;
+    margin-left: 30rem;
+  }
+
   #top {
     height: 1000px;
   }
@@ -685,6 +692,13 @@ header.fixed #logo {
 }
 
 @media (width:1600px) {
+  #about {
+    position: absolute;
+    float: right;
+    width: 67%;
+    margin-left: 30rem;
+  }
+
   #top {
     height: 1000px;
   }
@@ -769,6 +783,13 @@ header.fixed #logo {
 }
 
 @media (width:1440px) {
+  #about {
+    position: absolute;
+    float: right;
+    width: 67%;
+    margin-left: 20rem;
+  }
+
   #top {
     height: 1000px;
   }
@@ -864,14 +885,16 @@ header.fixed #logo {
 }
 
 @media (width:1400px) {
+  #about {
+    position: absolute;
+    float: right;
+    width: 67%;
+    margin-left: 20rem;
+  }
+
   #main {
     padding: 100px 10%;
     width: 80%;
-  }
-
-  #about {
-    margin-right: 300px;
-    margin-top: -55px;
   }
 
   #top {
@@ -970,8 +993,10 @@ header.fixed #logo {
 
 @media (width:1280px) {
   #about {
-    margin-right: 455px;
-    margin-top: -55px;
+    position: absolute;
+    float: right;
+    width: 67%;
+    margin-left: 20rem;
   }
 
   #top {
