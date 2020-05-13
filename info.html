@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC>
+<html lang="en-GB">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Wonderl4nd.info</title>
+  <link rel="stylesheet" href="css/info.css">
+</head>
+
+<body>
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">
+      <span>Wonderl4nd</span>
+      <span>W@nd3rl4n!</span>
+      <span>M0n*e5land</span>
+      <span>Wo6Per14nD</span>
+      <span>9on4erl57d</span>
+      <span>Wo!d#rl4n%</span>
+      <span>W+nd3rlaNd</span>
+    </div>
+    <div id="about">
+      <a href="#" onclick="slowScroll('.num1')" class="Products"><span>Products</span></a>
+      <a href="./index.html"><span>Back</span></a>
+    </div>
+  </header>
+
+  <div id="top">
+    <h1><span>C<span class="leteter">o</span>d<span class="leteter">e</span> <span class="leteter">i</span>n<span class="leteter">f</span>o</span></h1>
+  </div>
+
+  <div class="block num1">
+    <div class="name">
+      Rust
+    </div>
+    <div class="text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+
+  <div class="block num2">
+    <div class="name">
+      Pubg
+    </div>
+    <div class="text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+
+  <div class="block num3">
+    <div class="name">
+      CS:GO
+    </div>
+    <div class="text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+
+  <div class="block num4">
+    <div class="name">
+      Dota2
+    </div>
+    <div class="text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+
+  <div class="block num5">
+    <div class="name">
+      Valorant
+    </div>
+    <div class="text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+  $(document).on("scroll", function() {
+    if ($(window).scrollTop() === 0)
+      $("header").removeClass("fixed");
+    else
+      $("header").attr("class", "fixed");
+  });
+</script>
+
+</html>
