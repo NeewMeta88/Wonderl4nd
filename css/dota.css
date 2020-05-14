@@ -1336,6 +1336,11 @@ header.fixed #logo {
   color: #484848;
 }
 
+#main {
+  padding: 100px 20%;
+  width: 60%;
+}
+
 #main .intro {
   width: 650px;
   margin-top: -4rem;

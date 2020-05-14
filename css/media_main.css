@@ -1,76 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Suez+One|Carter+One|Indie+Flower|Orbitron:wght@500|Inconsolata:wght@500|Raleway&display');
+@@ -0, 0+1, 1258 @@
 
-* {
-  margin: 0;
-  padding: 0;
-  outline: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-body, html {
-  width: 100%;
-  height: 100%;
-}
-
-body {
-  background-color: #fafafa;
-  font-family: Trebuchet MS, Helvetica;
-}
-
-/* Шапка сайта */
-header {
-  width: 100%;
-  padding: 10px 0.5% 0px 0.5%;
-  background: transparent;
-  float: left;
-  position: fixed;
-}
-
-header #logo {
-  color: #2de41d;
-  cursor: pointer;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  height: 50px;
-  overflow: hidden;
-}
-
-header #logo span {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  display: grid;
-  align-items: center;
-  height: 50px;
-}
-
-header #logo:hover span {
-  cursor: pointer;
-  animation: shuffle steps(7) 1.4s infinite;
-}
-
-@keyframes shuffle {
-  0% {
-    transform: translateY(0px);
-  }
-
-  100% {
-    transform: translateY(-350px);
-  }
-}
-
-header #logo span {
-  font-size: 2.3em;
-  line-height: 50px;
-  margin-left: 40px;
-  font-family: 'Carter One', cursive;
-}
-
-@media (min-width: 701px) {
+/*--------------------------------------РАСШИРЕНИЯ----------------------------*/
+@media (min-width: 3840px) {
   #logo {
     float: left;
     width: 30%;
@@ -81,144 +12,11 @@ header #logo span {
     float: right;
     width: 67%;
   }
-}
 
-@media (max-width: 700px) {
-  #logo {
-    margin-top: 15px;
-    width: 100%;
-    font-size: 1.5em;
-  }
-
-  #about {
-    float: left;
-    width: 100%;
-  }
-}
-
-#about {
-  text-align: center;
-  font-size: 1em;
-  line-height: 40px;
-}
-
-#about>a {
-  color: #a9e494;
-  position: relative;
-  display: inline-block;
-  padding: 15px 30px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  text-decoration: none;
-  font-size: 20px;
-  overflow: hidden;
-  transition: 0.2s;
-  margin-top: -5px;
-  font-family: 'Carter One', cursive;
-}
-
-#about>a:hover {
-  color: #8cbe7a;
-  background: #a9e494;
-  box-shadow: 0 0 10px #a9e494, 0 0 40px #a9e494, 0 0 80px #a9e494;
-}
-
-#about>a:not(:last-child) {
-  margin-right: 7%;
-}
-
-/* Стили для фиксированной шапки */
-.fixed {
-  z-index: 5000;
-  background-color: #252a27;
-  border-bottom: 1px solid #141715;
-}
-
-header.fixed #logo {
-  color: #2196f3;
-  transition: 1.5s;
-}
-
-.fixed #about a {
-  color: #a9e494;
-}
-
-.fixed #about a:hover {
-  color: #8cbe7a;
-  background: #a9e494;
-}
-
-/* Главный блок на сайте */
-#top {
-  font-family: 'Raleway', sans-serif;
-  width: 100%;
-  background-image: url(csgoBackground.jpg);
-  background-blend-mode: multiply;
-  background-color: #5d605d;
-  background-size: cover;
-  text-align: center;
-}
-
-#top h1 {
-  position: absolute;
-  transform: translate(-50%, -50%) skewY(-5deg);
-  border: 4px solid #0500ff;
-  top: 70%;
-  left: 49.5%;
-  padding: 20px 50px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #0500ff, 0 0 30px #0500ff, inset 0 0 10px #0500ff, inset 0 0 30px #0500ff;
-  color: #ffffff;
-  text-shadow: 0 0 10px #0500ff, 0 0 20px #0500ff, 0 0 80px #0500ff, 0 0 120px #0500ff;
-  animation: animate 1.9s linear infinite;
-}
-
-#top h1 span {
-  animation: animate 1.5s linear infinite;
-}
-
-#top h1 span:nth-child(1) {
-  animation-delay: .3s;
-}
-
-#top h1 span:nth-child(2) {
-  animation-delay: .2s;
-}
-
-#top h1 span:nth-child(4) {
-  animation-delay: .30s;
-}
-
-#top h1 span:nth-child(5) {
-  animation-delay: .45s;
-}
-
-@keyframes animate {
-  0% {
-    opacity: 1;
-  }
-
-  30% {
-    opacity: 1;
-  }
-
-  40% {
-    opacity: .5;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-/*--------------------------------------РАСШИРЕНИЯ----------------------------*/
-@media (width: 3840px) {
   #top h1 {
     position: absolute;
+    margin-left: 1180px;
+    margin-top: 275px;
     font-size: 250px;
   }
 
@@ -312,7 +110,18 @@ header.fixed #logo {
   }
 }
 
-@media (width: 2560px) {
+@media (min-width: 2560px) and (max-width: 3830px) {
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+  }
+
+  #about {
+    float: right;
+    width: 67%;
+  }
+
   #top {
     font-size: 3em;
     height: 1000px;
@@ -320,7 +129,9 @@ header.fixed #logo {
 
   #top h1 {
     position: absolute;
-    font-size: 230px;
+    margin-left: 780px;
+    margin-top: 175px;
+    font-size: 170px;
   }
 
   #top {
@@ -409,10 +220,22 @@ header.fixed #logo {
   }
 }
 
-@media (width: 2048px) {
+@media (min-width: 2048px) and (max-width: 2550px) {
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+  }
+
+  #about {
+    float: right;
+    width: 67%;
+  }
+
   #top h1 {
     position: absolute;
-    left: 50%;
+    margin-left: 625px;
+    margin-top: 125px;
     font-size: 170px;
   }
 
@@ -495,7 +318,7 @@ header.fixed #logo {
   }
 
   #main .intro {
-    margin-: -30px;
+    margin-top: -30px;
   }
 
   #main .text span {
@@ -511,11 +334,21 @@ header.fixed #logo {
   }
 }
 
-@media (width:1920px) {
+@media (min-width:1920px) and (max-width: 2038px) {
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+  }
+
+  #about {
+    float: right;
+    width: 67%;
+  }
+
   #top h1 {
-    position: absolute;
-    top: 60%;
-    left: 50%;
+    margin-left: 585px;
+    margin-top: 130px;
     font-size: 130px;
   }
 
@@ -592,12 +425,23 @@ header.fixed #logo {
   }
 }
 
-@media (width:1680px) {
+@media (min-width:1680px) and (max-width: 1910px) {
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+  }
+
+  #about {
+    float: right;
+    width: 67%;
+  }
+
   #about {
     position: absolute;
     float: right;
     width: 67%;
-    margin-left: 15rem;
+    margin-left: 30rem;
   }
 
   #top {
@@ -605,9 +449,8 @@ header.fixed #logo {
   }
 
   #top h1 {
-    position: absolute;
-    top: 60%;
-    left: 53%;
+    margin-left: 560px;
+    margin-top: 140px;
     font-size: 130px;
   }
 
@@ -684,12 +527,23 @@ header.fixed #logo {
   }
 }
 
-@media (width:1600px) {
+@media (min-width:1600px) and (max-width: 1670px) {
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+  }
+
+  #about {
+    float: right;
+    width: 67%;
+  }
+
   #about {
     position: absolute;
     float: right;
     width: 67%;
-    margin-left: 10rem;
+    margin-left: 30rem;
   }
 
   #top {
@@ -697,10 +551,9 @@ header.fixed #logo {
   }
 
   #top h1 {
-    position: absolute;
-    top: 60%;
-    left: 56%;
-    font-size: 130px;
+    margin-left: 560px;
+    margin-top: 155px;
+    font-size: 120px;
   }
 
   #main .more a {
@@ -776,12 +629,23 @@ header.fixed #logo {
   }
 }
 
-@media (width:1440px) {
+@media (min-width:1440px) and (max-width: 1590px) {
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+  }
+
+  #about {
+    float: right;
+    width: 67%;
+  }
+
   #about {
     position: absolute;
     float: right;
     width: 67%;
-    margin-left: 5rem;
+    margin-left: 20rem;
   }
 
   #top {
@@ -789,10 +653,9 @@ header.fixed #logo {
   }
 
   #top h1 {
-    position: absolute;
-    top: 70%;
-    left: 55%;
-    font-size: 140px;
+    margin-left: 560px;
+    margin-top: 185px;
+    font-size: 120px;
   }
 
   #main .more a {
@@ -879,11 +742,28 @@ header.fixed #logo {
   }
 }
 
-@media (width:1400px) {
+@media (min-width:1400px) and (max-width: 1430px) {
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+  }
+
+  #about {
+    float: right;
+    width: 67%;
+  }
+
+  #main {
+    padding: 100px 20%;
+    width: 60%;
+  }
+
   #about {
     position: absolute;
     float: right;
     width: 67%;
+    margin-left: 20rem;
   }
 
   #main {
@@ -896,10 +776,9 @@ header.fixed #logo {
   }
 
   #top h1 {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    font-size: 130px;
+    margin-left: 555px;
+    margin-top: 195px;
+    font-size: 120px;
   }
 
   #main .more a {
@@ -986,12 +865,23 @@ header.fixed #logo {
   }
 }
 
-@media (width:1280px) {
+@media (min-width:1280px) and (max-width: 1390px) {
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+  }
+
+  #about {
+    float: right;
+    width: 67%;
+  }
+
   #about {
     position: absolute;
     float: right;
     width: 67%;
-    margin-left: -3rem;
+    margin-left: 20rem;
   }
 
   #top {
@@ -999,10 +889,9 @@ header.fixed #logo {
   }
 
   #top h1 {
-    position: absolute;
-    top: 80%;
-    left: 52%;
-    font-size: 130px;
+    margin-left: 555px;
+    margin-top: 225px;
+    font-size: 120px;
   }
 
   #main .more a {
@@ -1090,7 +979,18 @@ header.fixed #logo {
   }
 }
 
-@media (width:1152px) {
+@media (min-width:1152px) and (max-width: 1270px) {
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+  }
+
+  #about {
+    float: right;
+    width: 67%;
+  }
+
   #about {
     margin-right: 35px;
     margin-top: -55px;
@@ -1191,7 +1091,18 @@ header.fixed #logo {
   }
 }
 
-@media (width:1024px) {
+@media (min-width:1024px) and (max-width: 1142px) {
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+  }
+
+  #about {
+    float: right;
+    width: 67%;
+  }
+
   #about {
     margin-right: 40px;
     margin-top: -55px;
@@ -1292,16 +1203,45 @@ header.fixed #logo {
   }
 }
 
-@media (min-width: 1001px) {
+@media (min-width: 1000px) and (max-width: 1014px) {
   #top {
     font-size: 3em;
   }
+
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+  }
+
+  #about {
+    float: right;
+    width: 67%;
+  }
 }
 
-@media (max-width: 1000px) and (min-width: 651px) {
+@media (min-width: 651px) and (max-width: 990px) {
   #top {
     font-size: 2em;
     height: 600px;
+  }
+}
+
+@media (max-width: 700px) {
+  #logo {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  #about {
+    float: left;
+    width: 100%;
+  }
+
+  #main div {
+    width: 98% !important;
+    margin-bottom: 20px;
   }
 }
 
@@ -1317,189 +1257,4 @@ header.fixed #logo {
   #top {
     font-size: 0.9em;
   }
-}
-
-/* Блок с возможностями */
-#main {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #252a27;
-  border-top: 3px solid #141715;
-  color: #484848;
-}
-
-#main .intro {
-  width: 650px;
-  margin-top: -4rem;
-}
-
-#main .more {
-  margin-right: -200px;
-}
-
-#main .intro span {
-  color: #9fbfee;
-  font-family: 'Inconsolata', monospace;
-  width: 100%;
-}
-
-#main .intro h2 {
-  color: #5291EF;
-  font-family: 'Inconsolata', monospace;
-}
-
-#main .more a {
-  color: #5291EF;
-  display: inline-block;
-  position: relative;
-  padding: 0px 100px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  text-decoration: none;
-  height: 120px;
-  text-align: center;
-  justify-content: center;
-  transition: 0.2s;
-  font-family: 'Carter One', cursive;
-  margin-top: -3rem;
-  background: #325993;
-}
-
-#main {
-  padding: 100px 20%;
-  width: 60%;
-}
-
-#main .more a span {
-  padding-top: 1.2rem;
-  margin-left: -8rem;
-  position: absolute;
-}
-
-#main .more a:hover {
-  color: #4173be;
-  background: #5291EF;
-  box-shadow: 0 0 10px #5291EF, 0 0 40px #5291EF, 0 0 80px #5291EF;
-}
-
-@media (min-width: 1401px) {
-  #main {
-    padding: 100px 20%;
-    width: 60%;
-  }
-}
-
-@media (max-width: 700px) {
-  #main div {
-    width: 98% !important;
-    margin-bottom: 20px;
-  }
-}
-
-#main div {
-  width: 48%;
-  margin-right: 2%;
-  float: left;
-}
-
-/* Блок с преимуществами */
-#overview {
-  float: left;
-  width: 100%;
-  font-family: 'Orbitron', sans-serif;
-}
-
-#overview .box {
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 10rem;
-  background-color: rgb(62, 63, 80);
-  height: 80%;
-  width: 100%;
-}
-
-#overview .box .tabble {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  float: left;
-  padding: 0 6rem 0 5rem;
-  font-size: 1.4rem;
-}
-
-#overview .box .tabble .tabble-box {
-  text-align: center;
-  justify-content: space-between;
-  padding: .5rem;
-  background: linear-gradient(45deg, rgb(251, 0, 148, .7), rgb(0, 0, 255, .7));
-  font-size: 2rem;
-  border-radius: .8rem;
-  box-shadow: 0 0 10px rgb(251, 0, 148), 0px 0px 20px rgb(0, 0, 255), 0 0 40px rgb(251, 0, 148);
-}
-
-#overview .box .tabble .tabble-box .tabble-box-el {
-  justify-content: space-between;
-  padding: .5rem;
-  margin: .4rem;
-  border: 2px solid #BADE9A;
-  border-radius: .4rem;
-  display: flex;
-  justify-content: center;
-  color: #B3E197;
-}
-
-#overview .box .tabble .tabble-box .tabble-box-el:hover {
-  background-color: #B3E197;
-  border: 2px solid #5f7750;
-  color: #5f7750;
-  cursor: pointer;
-}
-
-#overview .box .func {
-  text-align: center;
-  background-color: rgb(54, 55, 61);
-  height: 360px;
-  margin: 0 30rem 0 25rem;
-  border-radius: .8rem;
-  position: inherit;
-  color: #fff;
-}
-
-#f2, #f3, #f4, #f5 {
-  display: none;
-}
-
-.megaclass {
-  animation: fu 2.4s ease-in-out;
-}
-
-@keyframes fu {
-  0% {}
-
-  50% {
-    background-color: rgb(232, 122, 233, .7);
-  }
-
-  100% {}
-}
-
-#overview .box .func span {
-  text-align: center;
-  margin-right: 5%;
-  margin-left: 5%;
-  line-height: 1.5rem;
-  justify-content: center;
-  padding-top: 12%;
-  display: flex;
-}
-
-#overview img {
-  float: right;
-  margin-top: -15rem;
-  margin-right: 10rem;
-  width: 100%;
-  height: 150px;
-  width: 150px;
 }

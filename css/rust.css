@@ -1334,6 +1334,11 @@ header.fixed #logo {
   margin-top: -4rem;
 }
 
+#main {
+  padding: 100px 20%;
+  width: 60%;
+}
+
 #main .more {
   margin-right: -200px;
 }
