@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC>
+<html lang="en-GB">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Wonderl4nd.info</title>
+  <link rel="stylesheet" href="css/buy.css">
+
+</head>
+
+<body>
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">
+      <span>Wonderl4nd</span>
+      <span>W@nd3rl4n!</span>
+      <span>M0n*e5land</span>
+      <span>Wo6Per14nD</span>
+      <span>9on4erl57d</span>
+      <span>Wo!d#rl4n%</span>
+      <span>W+nd3rlaNd</span>
+    </div>
+    <div id="about">
+      <a href="#" onclick="slowScroll('.prod')"><span>Buy</span></a>
+      <a href="./rust.html"><span>Back</span></a>
+    </div>
+  </header>
+
+  <div id="top">
+    <h1><span>B<span class="leteter">u</span>y <span class="leteter">Z</span>o<span class="leteter">n</span>e</span></h1>
+  </div>
+
+  <div class="prod">
+    <h2>Our Products</h2>
+    <h4>We are working hard to add more content</h4>
+
+  </div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+  $(document).on("scroll", function() {
+    if ($(window).scrollTop() === 0)
+      $("header").removeClass("fixed");
+    else
+      $("header").attr("class", "fixed");
+  });
+</script>
+
+</html>
