@@ -120,7 +120,6 @@ nav {
 
 nav h2 {
   border-radius: 2px;
-  font-size: 20px;
   position: relative;
   text-transform: uppercase;
   color: #a9e494;
@@ -141,7 +140,6 @@ input {
   opacity: 0;
   cursor: pointer;
   height: 60px;
-  margin-left: 70rem;
 }
 
 #toggle:checked~ul {
@@ -192,7 +190,8 @@ nav ul a {
   color: #a9e494;
   position: relative;
   display: inline-block;
-  padding: 15px 30px;
+  /* padding: 15px 30px; */
+  padding-top: 16px;
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
@@ -374,9 +373,19 @@ header.fixed #logo {
     height: 1000px;
   }
 
+  nav h2 {
+    font-size: 32px;
+  }
+
+  input {
+    margin-left: 82.3rem;
+  }
+
   #top h1 {
     position: absolute;
     font-size: 230px;
+    margin-left: 25%;
+    margin-top: 15%;
   }
 
   #top {
@@ -399,8 +408,17 @@ header.fixed #logo {
 @media (width: 2048px) {
   #top h1 {
     position: absolute;
-    left: 50%;
+    left: 25%;
+    margin-top: 15%;
     font-size: 170px;
+  }
+
+  nav h2 {
+    font-size: 34px;
+  }
+
+  input {
+    margin-left: 72rem;
   }
 
   #top {
@@ -428,6 +446,14 @@ header.fixed #logo {
     font-size: 130px;
   }
 
+  nav h2 {
+    font-size: 20px;
+  }
+
+  input {
+    margin-left: 70rem;
+  }
+
   #top {
     height: 1000px;
   }
@@ -442,7 +468,15 @@ header.fixed #logo {
     position: absolute;
     float: right;
     width: 67%;
-    margin-left: 15rem;
+    margin-left: 50%;
+  }
+
+  nav h2 {
+    font-size: 24px;
+  }
+
+  input {
+    margin-left: 22rem;
   }
 
   #top {
@@ -451,8 +485,8 @@ header.fixed #logo {
 
   #top h1 {
     position: absolute;
-    top: 60%;
-    left: 53%;
+    top: 40%;
+    left: 30%;
     font-size: 130px;
   }
 
@@ -466,7 +500,15 @@ header.fixed #logo {
     position: absolute;
     float: right;
     width: 67%;
-    margin-left: 10rem;
+    margin-left: 50rem;
+  }
+
+  nav h2 {
+    font-size: 22px;
+  }
+
+  input {
+    margin-left: 21rem;
   }
 
   #top {
@@ -475,8 +517,8 @@ header.fixed #logo {
 
   #top h1 {
     position: absolute;
-    top: 60%;
-    left: 56%;
+    top: 50%;
+    left: 27%;
     font-size: 130px;
   }
 
@@ -490,7 +532,21 @@ header.fixed #logo {
     position: absolute;
     float: right;
     width: 67%;
-    margin-left: 5rem;
+    margin-left: 40rem;
+    font-size: 30rem;
+  }
+
+  #about>a span {
+    padding-left: 70px;
+    padding-top: 100px;
+  }
+
+  nav h2 {
+    font-size: 20px;
+  }
+
+  input {
+    margin-left: 21rem;
   }
 
   #top {
@@ -499,8 +555,8 @@ header.fixed #logo {
 
   #top h1 {
     position: absolute;
-    top: 70%;
-    left: 55%;
+    top: 44%;
+    left: 25%;
     font-size: 140px;
   }
 
@@ -514,16 +570,30 @@ header.fixed #logo {
     position: absolute;
     float: right;
     width: 67%;
+    margin-left: 35rem;
+  }
+
+  nav h2 {
+    font-size: 30px;
+  }
+
+  input {
+    margin-left: 21rem;
   }
 
   #top {
     height: 1000px;
   }
 
+  #about>a span {
+    padding-left: 130px;
+    font-size: 30px;
+  }
+
   #top h1 {
     position: absolute;
-    top: 75%;
-    left: 50%;
+    top: 45%;
+    left: 25%;
     font-size: 130px;
   }
 
@@ -537,7 +607,24 @@ header.fixed #logo {
     position: absolute;
     float: right;
     width: 67%;
-    margin-left: -3rem;
+    margin-left: 30rem;
+  }
+
+  nav h2 {
+    font-size: 30px;
+  }
+
+  input {
+    margin-left: 21rem;
+  }
+
+  #top {
+    height: 1000px;
+  }
+
+  #about>a span {
+    padding-left: 220px;
+    font-size: 30px;
   }
 
   #top {
@@ -546,8 +633,8 @@ header.fixed #logo {
 
   #top h1 {
     position: absolute;
-    top: 80%;
-    left: 52%;
+    top: 40%;
+    left: 20%;
     font-size: 130px;
   }
 
