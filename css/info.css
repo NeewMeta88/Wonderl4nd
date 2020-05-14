@@ -81,6 +81,7 @@ header #logo span {
   #about {
     float: right;
     width: 67%;
+    margin-left: 15rem;
   }
 }
 
@@ -103,6 +104,103 @@ header #logo span {
   line-height: 40px;
 }
 
+.back {
+  margin-top: -14.2rem;
+}
+
+/* #about {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+} */
+nav {
+  font-family: 'Carter One', cursive;
+  letter-spacing: 4px;
+  margin-top: -1rem;
+  width: 10rem;
+  height: 200px;
+  padding: 15px 30px;
+  margin-left: 20rem;
+}
+
+nav h2:hover {
+  color: #8cbe7a;
+  background: #a9e494;
+  box-shadow: 0 0 10px #a9e494, 0 0 40px #a9e494, 0 0 80px #a9e494;
+}
+
+nav h2 {
+  border-radius: 2px;
+  font-size: 20px;
+  position: relative;
+  text-transform: uppercase;
+  color: #a9e494;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .4s;
+  height: 50px;
+}
+
+input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  cursor: pointer;
+  height: 40px;
+}
+
+#toggle:checked~ul {
+  height: 0%;
+}
+
+nav ul {
+  padding-left: 0;
+  padding-top: 0;
+  margin-top: 0;
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  margin-bottom: 22px;
+  text-align: center;
+  transition: all .4s ease-out;
+  height: 100%;
+}
+
+nav ul li {
+  border-radius: 2px;
+  position: relative;
+  display: inline-block;
+  margin-left: 35px;
+  line-height: 1.5;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 5px;
+  transition: background 1s;
+}
+
+nav ul li:hover {
+  background: rgb(169, 228, 148, .6);
+  transition: background .3s;
+}
+
+nav ul a {
+  display: block;
+  color: rgb(140, 190, 122, .6);
+  font-size: 18px;
+  font-weight: 200;
+  text-decoration: none;
+  transition: color .3s;
+  color: #a9e494;
+}
+
 #about>a {
   color: #a9e494;
   position: relative;
@@ -114,7 +212,6 @@ header #logo span {
   font-size: 20px;
   overflow: hidden;
   transition: 0.2s;
-  margin-top: -5px;
   font-family: 'Carter One', cursive;
 }
 
