@@ -1,3 +1,100 @@
+/*--------------------------------------РАСШИРЕНИЯ----------------------------*/
+@media (min-width: 3840px) {
+  #top h1 {
+    position: absolute;
+    font-size: 250px;
+  }
+
+  #top {
+    height: 1470px;
+  }
+
+  #main .more a {
+    font-size: 40px;
+    margin-left: 0px;
+    margin-top: -70px;
+    width: 275px;
+  }
+
+  #overview h2 {
+    font-size: 6.7em
+  }
+
+  #overview h4 {
+    font-size: 3.7em
+  }
+
+  /*----------------------------------NEW----------------------------*/
+  #overview {
+    height: 820px;
+    /*700px*/
+  }
+
+  #overview .container .card {
+    margin-left: 10%;
+    /*3.5%*/
+  }
+
+  #overview .container .card .face.face1 .content h3 {
+    font-size: 2.2em;
+  }
+
+  #overview .container .card .face.face2 {
+    font-size: 1.7em;
+  }
+
+  #main {
+    height: 250px;
+    /*140px*/
+  }
+
+  .fixed {
+    height: 90px;
+  }
+
+  #overview .container .card .face1 {
+    width: 600px;
+    height: 400px;
+  }
+
+  #overview .container .card .face2 {
+    width: 600px;
+    height: 200px;
+  }
+
+  #overview .container {
+    margin-left: 120px;
+  }
+
+  #about a {
+    font-size: 45px;
+  }
+
+  header #logo span {
+    font-size: 3.2em;
+  }
+
+  #main .intro h2 {
+    font-size: 6em;
+  }
+
+  #main .intro span {
+    font-size: 4.5em;
+  }
+
+  #main .intro {
+    margin-top: 0px;
+  }
+
+  #main .text span {
+    font-size: 2.6em;
+  }
+
+  #main .text {
+    margin-top: 10px;
+  }
+}
+
 @media (width: 2560px) {
   #top {
     font-size: 3em;
@@ -291,8 +388,7 @@
   }
 
   #top h1 {
-    margin-left: 585px;
-    margin-top: 130px;
+    position: absolute;
     font-size: 130px;
   }
 

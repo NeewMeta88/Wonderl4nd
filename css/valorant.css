@@ -70,34 +70,11 @@ header #logo span {
   font-family: 'Carter One', cursive;
 }
 
-/* @media (min-width: 701px) {
-  #logo {
-    float: left;
-    width: 30%;
-    font-size: 1.1em;
-  } */
-#about {
-  float: right;
-  width: 67%;
-}
-}
-
-/* @media (max-width: 700px) {
-  #logo {
-    margin-top: 15px;
-    width: 100%;
-    font-size: 1.5em;
-  } */
-#about {
-  float: left;
-  width: 100%;
-}
-}
-
 #about {
   text-align: center;
   font-size: 1em;
   line-height: 40px;
+  margin-top: -50px;
 }
 
 #about>a {
