@@ -27,7 +27,7 @@
     </div>
     <div id="about">
       <a href="#" onclick="slowScroll('.prod')"><span>Buy</span></a>
-      <a href="./rust.html"><span>Back</span></a>
+      <a href="./index.html"><span>Back</span></a>
     </div>
   </header>
 
@@ -91,7 +91,9 @@
           CS:GO
         </div>
         <div class="buyb">
-          <a href="https://api.fondy.eu/s/LIVXpjes7"><span>Purchase</span></a>
+          <form id="alfacoins-checkout-form" method="post" action="https://www.alfacoins.com/checkout"> <input name="button_id" value="5ec05d4fa2d5d" type="hidden">
+            <a onclick="document.getElementById('alfacoins-checkout-form').submit();"><span>Purchase</span></a>
+          </form>
         </div>
       </div>
       <div class="card">
@@ -139,6 +141,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+<script type="text/javascript" src="https://www.alfacoins.com/sites/all/modules/merchant/js/btn-svg.js"></script>
 <script>
   function slowScroll(id) {
     $('html, body').animate({

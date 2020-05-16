@@ -752,4 +752,5 @@ img {
   background: #a9e494;
   color: #8cbe7a;
   box-shadow: 0 0 10px #a9e494, 0 0 40px #a9e494, 0 0 80px #a9e494;
+  cursor: pointer;
 }
