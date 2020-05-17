@@ -110,10 +110,10 @@
     height: 1000px;
   }
 
-  #main .more a {
-    font-size: 40px;
-    margin-left: 0px;
-    margin-top: -50px;
+  #main .more a span {
+    font-size: 30px;
+    margin-left: -100px;
+    margin-top: -10px;
     width: 135px;
   }
 
@@ -203,7 +203,7 @@
     height: 1000px;
   }
 
-  #main .more a {
+  #main .more a span {
     font-size: 40px;
     margin-left: 0px;
     margin-top: -50px;
