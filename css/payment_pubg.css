@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Arvo&family=Questrial&display=swap');
+
+html {
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  height: 1000px;
+}
+
+body {
+  background-image: url(pay_back.jpg);
+}
+
+.box {
+  text-align: center;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-left: 33rem;
+  background-color: #fff;
+  width: 900px;
+  height: 700px;
+}
+
+.header {
+  font-size: 2rem;
+  padding-top: .5rem;
+  color: #48639A;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.he1 {
+  margin-left: -1rem;
+}
+
+.he2 {
+  margin-left: 35rem;
+}
+
+.empty1 {
+  margin-top: .5rem;
+  border-bottom: 1px solid #48639A;
+}
+
+.main {
+  padding-top: 4rem;
+}
+
+.up {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: 'Questrial', sans-serif;
+}
+
+.u1 {}
+
+.u2 {
+  margin-left: 20rem;
+  color: #33b338;
+}
+
+.mid {
+  padding-top: 5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: 'Questrial', sans-serif;
+}
+
+.empty2 {
+  margin-top: 5rem;
+  border-bottom: 1px solid #48639A;
+}
+
+.m2 {
+  margin-left: 20rem;
+  color: #b33333;
+}
+
+.m1 {
+  margin-left: 5rem;
+}
+
+.down {
+  padding-top: 6.5rem;
+  font-size: 1.2rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.down a {
+  margin-left: 33rem;
+  text-decoration: none;
+  color: #48639A;
+}
+
+.d1 {
+  color: #48639A;
+  font-weight: 700;
+}
+
+.mid2 {
+  padding-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: 'Questrial', sans-serif;
+}
+
+.mid3 {
+  padding-top: 4rem;
+  font-weight: 600;
+  font-family: 'Questrial', sans-serif;
+}
+
+.m4 {
+  margin-left: 6rem;
+  font-size: 1.4rem;
+}
+
+.m5 {
+  margin-left: 10rem;
+  font-size: 1.2rem;
+  color: #33b3b3;
+}
+
+.m6 {
+  font-family: 'Acme', sans-serif;
+}
+
+.mid4 {
+  padding-top: 3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 2rem;
+}
+
+.empty3 {
+  padding-top: 2rem;
+  border-bottom: 1px solid #48639A;
+}
+
+.amount {
+  color: #b33333;
+}
+
+.address {
+  color: #33b3b3;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC>
+<html lang="en-GB">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Wonderl4nd.payment</title>
+  <link rel="stylesheet" href="css/payment_pubg.css">
+</head>
+
+<body>
+
+  <div class="box">
+    <div class="header">
+      <span class="he1">Wonderl4nd</span>
+      <span class="he2">Payment</span>
+    </div>
+
+    <div class="empty1">
+
+    </div>
+
+    <div class="main">
+
+      <div class="up">
+        <span class="u1">Product</span>
+        <span class="u2">Pubg soft</span>
+      </div>
+
+      <div class="mid">
+        <span class="m1">Price</span>
+        <span class="m2">100 USD (0.01 BTC)</span>
+      </div>
+
+      <div class="empty2">
+
+      </div>
+
+      <div class="mid2">
+        <span class="m3">Transaction info</span>
+      </div>
+
+      <div class="mid3">
+        <span class="m4">Bitcoin addres</span>
+        <span class="m5">3GUQntkF6KYa1EWz3R5LuJB9Qzeaho8LX6</span>
+      </div>
+
+      <div class="mid4">
+        <span class="m6">
+          <ion-icon name="notifications-outline"></ion-icon>Notice: send <span class="amount">exact amount of BTC</span> to above-mentioned <span class="address">Bitcoin address</span> and tell support ...
+        </span>
+      </div>
+
+      <div class="empty3">
+
+      </div>
+
+      <div class="down">
+        <span class="d1">Powered by Wonderl4nd</span>
+        <a href="./buy.html">
+          <ion-icon name="arrow-undo-outline"></ion-icon>Back to site
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+  $(document).on("scroll", function() {
+    if ($(window).scrollTop() === 0)
+      $("header").removeClass("fixed");
+    else
+      $("header").attr("class", "fixed");
+  });
+</script>
+
+</html>
