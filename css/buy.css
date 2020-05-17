@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Suez+One|Carter+One|Indie+Flower|Orbitron:wght@500|Inconsolata:wght@500|Raleway&display');
 
+html {
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -676,7 +680,14 @@ header.fixed #logo {
   text-align: center;
 }
 
-img {
+.picture img {
+  position: relative;
+  width: 130px;
+  top: -60px;
+  z-index: 1;
+}
+
+.icon img {
   position: relative;
   width: 130px;
   top: -60px;
@@ -738,7 +749,6 @@ img {
   letter-spacing: 4px;
   text-decoration: none;
   font-size: 20px;
-  /* font-family: 'Carter One', cursive; */
 }
 
 .buyb a {
@@ -753,4 +763,48 @@ img {
   color: #8cbe7a;
   box-shadow: 0 0 10px #a9e494, 0 0 40px #a9e494, 0 0 80px #a9e494;
   cursor: pointer;
+}
+
+.alert {
+  position: absolute;
+  margin-top: -18rem;
+  font-size: 2rem;
+  color: #a9e494;
+}
+
+.how {
+  background: linear-gradient(90deg, #333, #5a5454);
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #327ceb;
+  height: 700px;
+  border-top: 2px dashed #141715;
+}
+
+.how img {
+  margin-top: 5rem;
+  height: 580px;
+  margin-left: -70rem;
+}
+
+.how span {
+  position: absolute;
+  margin-left: -25rem;
+  margin-top: 1rem;
+}
+
+.steps {
+  margin-top: -36.5rem;
+  margin-left: 80rem;
+  line-height: 3.5rem;
+  color: #327ceb;
+}
+
+.second {
+  color: #5291EF;
+}
+
+.steps span {
+  font-size: 1.3rem;
 }
