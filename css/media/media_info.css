@@ -342,7 +342,7 @@
   }
 }
 
-@media (min-width: 1001px) {
+@media (min-width: 1001px) and (max-width: 1014px) {
   #top {
     font-size: 3em;
   }

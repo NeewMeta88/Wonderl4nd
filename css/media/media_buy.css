@@ -30,6 +30,8 @@
   #top h1 {
     position: absolute;
     font-size: 230px;
+    margin-left: 50%;
+    margin-top: 50%;
   }
 
   #top {
