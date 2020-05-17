@@ -27,6 +27,14 @@
     height: 1000px;
   }
 
+  #about {
+    margin-left: 35%;
+  }
+
+  #toggle {
+    margin-left: 70%;
+  }
+
   nav h2 {
     font-size: 32px;
   }
@@ -42,6 +50,12 @@
     margin-top: 15%;
   }
 
+  #about ul {
+    height: 250px;
+    width: 225px;
+    margin-left: -3.7rem;
+  }
+
   #top {
     height: 1000px;
   }
@@ -52,6 +66,7 @@
 
   #about a {
     font-size: 30px;
+    margin-left: 30%;
   }
 
   header #logo span {
@@ -65,6 +80,20 @@
     left: 25%;
     margin-top: 15%;
     font-size: 170px;
+  }
+
+  #about {
+    margin-left: 25%;
+  }
+
+  #toggle {
+    margin-left: 65.3%;
+  }
+
+  #about ul {
+    height: 250px;
+    width: 225px;
+    margin-left: -3.7rem;
   }
 
   nav h2 {
@@ -85,6 +114,7 @@
 
   #about a {
     font-size: 30px;
+    margin-left: 25%;
   }
 
   header #logo span {
@@ -125,6 +155,18 @@
     margin-left: 50%;
   }
 
+  #about {
+    margin-left: 45%;
+  }
+
+  #toggle {
+    margin-left: 30%;
+  }
+
+  .back {
+    margin-left: 10%;
+  }
+
   nav h2 {
     font-size: 24px;
   }
@@ -155,6 +197,14 @@
     float: right;
     width: 67%;
     margin-left: 50rem;
+  }
+
+  #about {
+    margin-left: 40%;
+  }
+
+  .back {
+    margin-left: 20%;
   }
 
   nav h2 {
@@ -188,6 +238,10 @@
     width: 67%;
     margin-left: 40rem;
     font-size: 30rem;
+  }
+
+  #about h2 {
+    margin-left: -50%;
   }
 
   #about>a span {
