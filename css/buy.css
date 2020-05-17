@@ -349,7 +349,7 @@ header.fixed #logo {
 }
 
 /*--------------------------------------РАСШИРЕНИЯ----------------------------*/
-@media (width: 3840px) {
+@media (min-width: 3840px) {
   #top h1 {
     position: absolute;
     font-size: 250px;
@@ -372,7 +372,7 @@ header.fixed #logo {
   }
 }
 
-@media (width: 2560px) {
+@media (min-width: 2560px) and (max-width: 3830px) {
   #top {
     font-size: 3em;
     height: 1000px;
@@ -400,7 +400,7 @@ header.fixed #logo {
   }
 }
 
-@media (width: 2048px) {
+@media (min-width: 2048px) and (max-width: 2550px) {
   #top h1 {
     position: absolute;
     left: 50%;
@@ -424,7 +424,7 @@ header.fixed #logo {
   }
 }
 
-@media (width:1920px) {
+@media (min-width:1920px) and (max-width: 2038px) {
   #top h1 {
     position: absolute;
     top: 50%;
@@ -441,7 +441,7 @@ header.fixed #logo {
   }
 }
 
-@media (width:1680px) {
+@media (min-width:1680px) and (max-width: 1910px) {
   #about {
     position: absolute;
     float: right;
@@ -465,7 +465,7 @@ header.fixed #logo {
   }
 }
 
-@media (width:1600px) {
+@media (min-width:1600px) and (max-width: 1670px) {
   #about {
     position: absolute;
     float: right;
@@ -489,7 +489,7 @@ header.fixed #logo {
   }
 }
 
-@media (width:1440px) {
+@media (min-width:1440px) and (max-width: 1590px) {
   #about {
     position: absolute;
     float: right;
@@ -513,7 +513,7 @@ header.fixed #logo {
   }
 }
 
-@media (width:1400px) {
+@media (min-width:1400px) and (max-width: 1430px) {
   #about {
     position: absolute;
     float: right;
@@ -536,7 +536,7 @@ header.fixed #logo {
   }
 }
 
-@media (width:1280px) {
+@media (min-width:1280px) and (max-width: 1390px) {
   #about {
     position: absolute;
     float: right;
@@ -561,7 +561,7 @@ header.fixed #logo {
   }
 }
 
-@media (width:1152px) {
+@media (min-width:1152px) and (max-width: 1270px) {
   #about {
     margin-right: 35px;
     margin-top: -55px;

@@ -390,6 +390,7 @@
   #top h1 {
     position: absolute;
     font-size: 130px;
+    margin-top: -5rem;
   }
 
   #top {
@@ -572,7 +573,7 @@
   #top h1 {
     position: absolute;
     top: 60%;
-    left: 56%;
+    left: 52%;
     font-size: 130px;
   }
 
