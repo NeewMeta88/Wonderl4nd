@@ -30,8 +30,12 @@
   #top h1 {
     position: absolute;
     font-size: 230px;
-    margin-left: 50%;
-    margin-top: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+  }
+
+  .how img {
+    width: 20%;
   }
 
   #top {
@@ -54,8 +58,13 @@
 @media (min-width: 2048px) and (max-width: 2550px) {
   #top h1 {
     position: absolute;
-    left: 50%;
-    font-size: 170px;
+    font-size: 230px;
+    margin-left: -30%;
+    margin-top: 20%;
+  }
+
+  .how img {
+    width: 20%;
   }
 
   #top {
@@ -83,6 +92,10 @@
     font-size: 130px;
   }
 
+  .how img {
+    width: 30%;
+  }
+
   #top {
     height: 1000px;
   }
@@ -100,6 +113,11 @@
     margin-left: 15rem;
   }
 
+  .how img {
+    width: 35%;
+    margin-left: -60%;
+  }
+
   #top {
     height: 1000px;
   }
@@ -107,7 +125,7 @@
   #top h1 {
     position: absolute;
     top: 60%;
-    left: 53%;
+    left: 28%;
     font-size: 130px;
   }
 
@@ -121,7 +139,12 @@
     position: absolute;
     float: right;
     width: 67%;
-    margin-left: 10rem;
+    margin-left: 40rem;
+  }
+
+  .how img {
+    width: 30%;
+    margin-left: -60%;
   }
 
   #top {
@@ -130,8 +153,8 @@
 
   #top h1 {
     position: absolute;
-    top: 60%;
-    left: 56%;
+    top: 50%;
+    left: 28%;
     font-size: 130px;
   }
 
@@ -146,6 +169,10 @@
     float: right;
     width: 67%;
     margin-left: 5rem;
+  }
+
+  .how img {
+    width: 30%;
   }
 
   #top {
@@ -169,6 +196,10 @@
     position: absolute;
     float: right;
     width: 67%;
+  }
+
+  .how img {
+    width: 30%;
   }
 
   #top {
