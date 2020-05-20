@@ -95,7 +95,16 @@
   }
 }
 
-@media (width: 2560px) {
+@media (min-width: 2560px) and (max-width: 3830px) {
+  .more a {
+    width: 80px;
+  }
+
+  .more {
+    margin-top: 4rem;
+    text-align: center;
+  }
+
   #top {
     font-size: 3em;
     height: 1000px;
@@ -112,9 +121,8 @@
 
   #main .more a span {
     font-size: 30px;
-    margin-left: -100px;
+    margin-left: -140px;
     margin-top: -10px;
-    width: 135px;
   }
 
   #overview h2 {
@@ -189,108 +197,6 @@
 
   #main .text span {
     font-size: 1.7em;
-  }
-}
-
-@media (min-width: 2560px) and (max-width: 3830px) {
-  #top h1 {
-    position: absolute;
-    left: 50%;
-    font-size: 170px;
-  }
-
-  #top {
-    height: 1000px;
-  }
-
-  #main .more a span {
-    font-size: 40px;
-    margin-left: 0px;
-    margin-top: -50px;
-    width: 135px;
-  }
-
-  #overview h2 {
-    font-size: 5em
-  }
-
-  #overview h4 {
-    font-size: 2.1em
-  }
-
-  /*----------------------------------NEW----------------------------*/
-  #overview {
-    height: 700px;
-    /*700px*/
-  }
-
-  #overview .container .card {
-    margin-left: 4%;
-    /*3.5%*/
-  }
-
-  #overview .container .card .face.face1 .content h3 {
-    font-size: 1.6em;
-  }
-
-  #overview .container .card .face.face2 {
-    font-size: 1.4em;
-  }
-
-  #main {
-    height: 140px;
-    /*140px*/
-  }
-
-  .fixed {
-    height: 65px;
-  }
-
-  /*----------------------------------NEW-----------------------------*/
-  #overview .container .card .face1 {
-    width: 350px;
-    height: 200px;
-  }
-
-  #overview .container .card .face2 {
-    width: 350px;
-    height: 200px;
-  }
-
-  #overview .container {
-    margin-left: 30px;
-  }
-
-  #about a {
-    font-size: 30px;
-  }
-
-  header #logo span {
-    font-size: 3.2em;
-  }
-
-  #main .intro h2 {
-    font-size: 4.2em;
-  }
-
-  #main .intro span {
-    font-size: 3em;
-  }
-
-  #main .intro {
-    margin-: -30px;
-  }
-
-  #main .text span {
-    font-size: 1.7em;
-  }
-
-  #main .text {
-    margin-top: -30px;
-  }
-
-  #main .more a {
-    margin-top: -100px;
   }
 }
 
@@ -400,7 +306,7 @@
   #main .more a {
     font-size: 25px;
     margin-right: 1500px;
-    margin-top: -60px;
+    margin-top: 0px;
     width: 70px;
   }
 
@@ -409,7 +315,7 @@
   }
 
   #overview h2 {
-    font-size: 4.3em
+    font-size: 6.3em
   }
 
   #overview h4 {
@@ -454,11 +360,11 @@
   }
 
   #main .intro h2 {
-    font-size: 3.4em;
+    font-size: 3.8em;
   }
 
   #main .intro span {
-    font-size: 2.2em;
+    font-size: 2.75em;
   }
 
   #main .text span {
@@ -488,7 +394,7 @@
   #main .more a {
     font-size: 25px;
     margin-right: 1500px;
-    margin-top: -60px;
+    margin-top: 0px;
     width: 70px;
   }
 
@@ -580,7 +486,7 @@
   #main .more a {
     font-size: 25px;
     margin-right: 1500px;
-    margin-top: -60px;
+    margin-top: -30px;
     width: 70px;
   }
 
@@ -672,7 +578,7 @@
   #main .more a {
     font-size: 25px;
     margin-right: 1500px;
-    margin-top: -110px;
+    margin-top: 0px;
     width: 70px;
   }
 
@@ -797,6 +703,11 @@
     margin-top: -20px;
   }
 
+  #main .more {
+    margin-top: 40px;
+    margin-right: -45rem;
+  }
+
   #overview h2 {
     font-size: 4.5em
   }
@@ -850,11 +761,11 @@
   }
 
   #main .intro h2 {
-    font-size: 3.6em;
+    font-size: 3.2em;
   }
 
   #main .intro span {
-    font-size: 2.9em;
+    font-size: 2.4em;
   }
 
   #main .text span {
