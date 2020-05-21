@@ -240,12 +240,6 @@ header.fixed #logo {
   background: #325993;
 }
 
-#main .more a span {
-  padding-top: 1.2rem;
-  margin-left: -8rem;
-  position: absolute;
-}
-
 #main .more a:hover {
   color: #4173be;
   background: #5291EF;

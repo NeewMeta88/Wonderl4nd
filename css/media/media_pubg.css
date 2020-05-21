@@ -113,8 +113,15 @@
   #main .more a {
     font-size: 40px;
     margin-left: 0px;
-    margin-top: -50px;
+    margin-top: 0px;
     width: 135px;
+  }
+
+  .more a span {
+    font-size: 28px;
+    padding-top: 1.2rem;
+    margin-left: -10rem;
+    position: absolute;
   }
 
   #overview h2 {
@@ -206,8 +213,15 @@
   #main .more a {
     font-size: 40px;
     margin-left: 0px;
-    margin-top: -50px;
     width: 135px;
+    height: 150px;
+  }
+
+  .more a span {
+    padding-top: 1.2rem;
+    margin-left: -10rem;
+    position: absolute;
+    font-size: 28px;
   }
 
   #overview h2 {
@@ -288,10 +302,6 @@
   #main .text {
     margin-top: -30px;
   }
-
-  #main .more a {
-    margin-top: -100px;
-  }
 }
 
 @media (min-width:1920px) and (max-width: 2038px) {
@@ -309,8 +319,14 @@
   #main .more a {
     font-size: 25px;
     margin-right: 1500px;
-    margin-top: -60px;
+    margin-top: -20px;
     width: 70px;
+  }
+
+  .more a span {
+    padding-top: 1.2rem;
+    margin-left: -8rem;
+    position: absolute;
   }
 
   #main .intro {
@@ -397,7 +413,7 @@
   #main .more a {
     font-size: 25px;
     margin-right: 1500px;
-    margin-top: -60px;
+    margin-top: -10px;
     width: 70px;
   }
 
@@ -489,7 +505,7 @@
   #main .more a {
     font-size: 25px;
     margin-right: 1500px;
-    margin-top: -60px;
+    margin-top: 0px;
     width: 70px;
   }
 
@@ -581,7 +597,7 @@
   #main .more a {
     font-size: 25px;
     margin-right: 1500px;
-    margin-top: -110px;
+    margin-top: -30px;
     width: 70px;
   }
 
@@ -688,7 +704,7 @@
   #main .more a {
     font-size: 25px;
     margin-right: 1500px;
-    margin-top: -60px;
+    margin-top: -20px;
     width: 85px;
   }
 
