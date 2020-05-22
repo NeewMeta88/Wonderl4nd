@@ -1635,3 +1635,151 @@ header.fixed #logo {
 .accordion-item:target .accordion-link .bugaga {
   color: yellow;
 }
+
+.box {
+  position: absolute;
+  height: 100px;
+  width: 500px;
+  position: fixed;
+}
+
+.notifications {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background: #fff;
+  border-radius: 30px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.box:hover .notifications {
+  width: 300px;
+  height: 60px;
+  animation: notification .4s;
+  animation-fill-mode: forwards;
+  text-align: left;
+  padding: 0 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background: #668DEB;
+}
+
+.box:hover .fas {
+  color: #fff;
+}
+
+.box:hover .num {
+  position: relative;
+  background: transparent;
+  font-size: 24px;
+  top: -4px;
+}
+
+.box:hover .num::after {
+  content: ' Notification'
+}
+
+@keyframes notification {
+  0% {
+    left: 0px;
+  }
+
+  100% {
+    left: -240px;
+  }
+}
+
+.notifications .fas {
+  color: #cecece;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.notifications .num {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #668DEB;
+  color: #fff;
+  line-height: 25px;
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+}
+
+.iconn {
+  color: #fff;
+}
+
+ul {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: none;
+}
+
+.box:hover ul {
+  display: block;
+}
+
+ul li {
+  list-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  line-height: 40px;
+  padding: 8px 0;
+  display: flex;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+ul li .iconn {
+  width: 24px;
+  height: 24px;
+  background: #ccc;
+  border-radius: 50%;
+  line-height: 24px;
+  margin-top: 7px;
+  margin-right: 15px;
+}
+
+ul li .iconn .fas {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.plus {
+  margin-top: 5px;
+  margin-left: 4px;
+  color: #fff;
+}
+
+.textt {
+  position: relative;
+  font-family: 'Inconsolata', monospace;
+  font-size: 15.2px;
+  cursor: pointer;
+}
+
+ul li:hover a {
+  font-weight: bold;
+  color: #668DEB;
+}
+
+.linkk {
+  color: black;
+}

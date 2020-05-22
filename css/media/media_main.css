@@ -2,6 +2,11 @@
 
 /*--------------------------------------РАСШИРЕНИЯ----------------------------*/
 @media (min-width: 3840px) {
+  .box {
+    left: 3720px;
+    top: 200px;
+  }
+
   #logo {
     float: left;
     width: 30%;
@@ -111,6 +116,11 @@
 }
 
 @media (min-width: 2560px) and (max-width: 3830px) {
+  .box {
+    left: 2440px;
+    top: 133px;
+  }
+
   #logo {
     float: left;
     width: 30%;
@@ -221,6 +231,11 @@
 }
 
 @media (min-width: 2048px) and (max-width: 2550px) {
+  .box {
+    left: 1928px;
+    top: 106px;
+  }
+
   #logo {
     float: left;
     width: 30%;
@@ -335,6 +350,11 @@
 }
 
 @media (min-width:1920px) and (max-width: 2038px) {
+  .box {
+    left: 1800px;
+    top: 100px;
+  }
+
   #logo {
     float: left;
     width: 30%;
@@ -426,6 +446,11 @@
 }
 
 @media (min-width:1680px) and (max-width: 1910px) {
+  .box {
+    left: 1560px;
+    top: 100px;
+  }
+
   #logo {
     float: left;
     width: 30%;
@@ -528,6 +553,11 @@
 }
 
 @media (min-width:1600px) and (max-width: 1670px) {
+  .box {
+    left: 1480px;
+    top: 100px;
+  }
+
   #logo {
     float: left;
     width: 30%;
@@ -630,6 +660,11 @@
 }
 
 @media (min-width:1440px) and (max-width: 1590px) {
+  .box {
+    left: 1320px;
+    top: 100px;
+  }
+
   #logo {
     float: left;
     width: 30%;
@@ -743,6 +778,11 @@
 }
 
 @media (min-width:1400px) and (max-width: 1430px) {
+  .box {
+    left: 1280px;
+    top: 100px;
+  }
+
   #logo {
     float: left;
     width: 30%;
@@ -866,6 +906,11 @@
 }
 
 @media (min-width:1280px) and (max-width: 1390px) {
+  .box {
+    left: 1160px;
+    top: 100px;
+  }
+
   #logo {
     float: left;
     width: 30%;

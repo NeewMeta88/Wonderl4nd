@@ -64,10 +64,12 @@ body {
   font-family: 'Questrial', sans-serif;
 }
 
-.u1 {}
+.u1 {
+  margin-left: 3rem;
+}
 
 .u2 {
-  margin-left: 20rem;
+  margin-left: 19rem;
   color: #33b338;
 }
 
