@@ -1,5 +1,9 @@
 /*--------------------------------------РАСШИРЕНИЯ----------------------------*/
 @media (min-width: 3840px) {
+  #about {
+    margin-left: 1267.2px;
+  }
+
   #top h1 {
     position: absolute;
     font-size: 250px;
@@ -96,6 +100,10 @@
 }
 
 @media (min-width: 2560px) and (max-width: 3830px) {
+  #about {
+    margin-left: 845px;
+  }
+
   #top {
     font-size: 3em;
     height: 1000px;
@@ -200,6 +208,10 @@
 }
 
 @media (min-width: 2048px) and (max-width: 2550px) {
+  #about {
+    margin-left: 676px;
+  }
+
   #top h1 {
     position: absolute;
     left: 50%;
@@ -305,6 +317,10 @@
 }
 
 @media (min-width:1920px) and (max-width: 2038px) {
+  #about {
+    margin-left: 634px;
+  }
+
   #top h1 {
     position: absolute;
     top: 60%;
@@ -576,6 +592,10 @@
 }
 
 @media (min-width:1440px) and (max-width: 1590px) {
+  #about {
+    margin-left: 475px;
+  }
+
   #about {
     position: absolute;
     float: right;
