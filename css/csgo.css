@@ -332,7 +332,7 @@ header.fixed #logo {
 }
 
 .megaclass {
-  animation: fu 2.4s ease-in-out;
+  animation: fu 1.5s ease-in-out;
 }
 
 @keyframes fu {
