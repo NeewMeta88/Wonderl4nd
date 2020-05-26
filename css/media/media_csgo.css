@@ -96,6 +96,11 @@
 }
 
 @media (min-width: 2560px) and (max-width: 3830px) {
+  #overview img {
+    margin-top: -227px;
+    margin-left: 880px;
+  }
+
   .more a {
     width: 80px;
   }
@@ -201,6 +206,11 @@
 }
 
 @media (min-width: 2048px) and (max-width: 2550px) {
+  #overview img {
+    margin-top: -166px;
+    margin-left: 620px;
+  }
+
   #top h1 {
     position: absolute;
     top: 60%;
@@ -282,6 +292,11 @@
 }
 
 @media (min-width:1920px) and (max-width: 2038px) {
+  #overview img {
+    margin-top: -150px;
+    margin-left: 555px;
+  }
+
   #logo {
     float: left;
     width: 30%;
@@ -373,6 +388,11 @@
 }
 
 @media (min-width:1680px) and (max-width: 1910px) {
+  #overview img {
+    margin-top: -124px;
+    margin-left: 435px;
+  }
+
   #about {
     position: absolute;
     float: right;
@@ -465,6 +485,11 @@
 }
 
 @media (min-width:1600px) and (max-width: 1670px) {
+  #overview img {
+    margin-top: -112px;
+    margin-left: 400px;
+  }
+
   #about {
     position: absolute;
     float: right;
@@ -557,6 +582,11 @@
 }
 
 @media (min-width:1440px) and (max-width: 1590px) {
+  #overview img {
+    margin-top: -93px;
+    margin-left: 320px;
+  }
+
   #about {
     position: absolute;
     float: right;

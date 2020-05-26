@@ -374,8 +374,6 @@ header.fixed #logo {
 #overview img {
   position: absolute;
   float: right;
-  margin-top: -150px;
-  margin-left: 555px;
   border-radius: .8rem;
   border: 3px solid #4C1DB8;
   width: 100%;
