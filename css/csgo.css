@@ -347,12 +347,14 @@ header.fixed #logo {
 
 #overview .box .func span {
   text-align: center;
-  margin-right: 5%;
-  margin-left: 5%;
-  line-height: 1.5rem;
+  margin-right: 800px;
+  line-height: 4rem;
   justify-content: center;
-  padding-top: 12%;
   display: flex;
+}
+
+.func span:nth-child(1) {
+  padding-top: 20px;
 }
 
 #overview img {
