@@ -340,14 +340,14 @@ header.fixed #logo {
   100% {}
 }
 
-#overview .box .func span {
+.s1 {
   text-align: center;
-  margin-right: 5%;
-  margin-left: 5%;
-  line-height: 1.5rem;
-  justify-content: center;
-  padding-top: 12%;
+  line-height: 4rem;
   display: flex;
+}
+
+.s2 {
+  font-weight: bold;
 }
 
 #overview img {
