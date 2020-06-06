@@ -347,19 +347,12 @@ header.fixed #logo {
 
 .s1 {
   text-align: center;
-  margin-right: 800px;
   line-height: 4rem;
-  width: 800px;
   display: flex;
 }
 
 .s2 {
   font-weight: bold;
-  padding-left: 10px;
-}
-
-.s1:nth-child(1) {
-  padding-top: 20px;
 }
 
 #overview img {
