@@ -345,15 +345,20 @@ header.fixed #logo {
   100% {}
 }
 
-#overview .box .func span {
+.s1 {
   text-align: center;
   margin-right: 800px;
   line-height: 4rem;
-  justify-content: center;
+  width: 800px;
   display: flex;
 }
 
-.func span:nth-child(1) {
+.s2 {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.s1:nth-child(1) {
   padding-top: 20px;
 }
 
