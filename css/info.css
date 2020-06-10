@@ -325,6 +325,7 @@ header.fixed #logo {
   padding-top: 10rem;
   font-size: 1.7rem;
   color: #7F7B7B;
+  line-height: 50px;
 }
 
 .num1 {
