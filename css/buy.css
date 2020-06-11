@@ -776,29 +776,24 @@ header.fixed #logo {
   background: linear-gradient(90deg, #333, #5a5454);
   text-align: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #327ceb;
   height: 700px;
   border-top: 2px dashed #141715;
 }
 
-.how img {
-  margin-top: 5rem;
-  height: 580px;
-  margin-left: -70rem;
-}
-
-.how span {
-  position: absolute;
-  margin-left: -25rem;
-  margin-top: 1rem;
+.steps_info {
+  margin-top: 1.2%;
 }
 
 .steps {
-  margin-top: -36.5rem;
-  margin-left: 80rem;
-  line-height: 3.5rem;
+  line-height: 4rem;
+  margin-top: 2.3%;
   color: #327ceb;
+}
+
+.notice {
+  color: #6fd0e9;
 }
 
 .second {
@@ -806,7 +801,7 @@ header.fixed #logo {
 }
 
 .steps span {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 ::-webkit-scrollbar {
