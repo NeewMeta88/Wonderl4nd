@@ -358,6 +358,12 @@ header.fixed #logo {
   font-weight: bold;
 }
 
+.s3 {
+  font-weight: bold;
+  color: #4C25B3;
+  background-color: #1f2022;
+}
+
 #overview img {
   position: absolute;
   float: right;
