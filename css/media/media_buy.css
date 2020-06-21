@@ -418,26 +418,6 @@
   text-transform: uppercase;
 }
 
-.c1 {
-  background: linear-gradient(45deg, #63e2ff, #c463ff);
-}
-
-.c2 {
-  background: linear-gradient(45deg, #fcee21, #67fc21);
-}
-
-.c3 {
-  background: linear-gradient(45deg, #3340ac, #63e2ff);
-}
-
-.c4 {
-  background: linear-gradient(45deg, #ed1c24, #fcee21);
-}
-
-.c5 {
-  background: linear-gradient(45deg, #bf63ff, #ed1c24);
-}
-
 .picture {
   text-align: center;
 }
@@ -447,26 +427,6 @@ img {
   width: 130px;
   top: -60px;
   z-index: 1;
-}
-
-.price {
-  position: absolute;
-  right: 0;
-  bottom: 100px;
-  width: 120px;
-  height: 200px;
-  border-radius: 20px 20px 0 20px;
-  transform: skewY(40deg);
-}
-
-.price span {
-  position: absolute;
-  top: 130px;
-  left: 35px;
-  font-size: 25px;
-  color: #fff;
-  font-weight: 700;
-  transform: skewY(-40deg);
 }
 
 .name1 {

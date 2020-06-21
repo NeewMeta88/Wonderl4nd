@@ -656,6 +656,24 @@ header.fixed #logo {
   text-transform: uppercase;
 }
 
+.buyb a {
+  animation: purch 1.5s linear infinite;
+}
+
+@keyframes purch {
+  0% {
+    color: #7c9a68;
+  }
+
+  50% {
+    color: #c4fba2;
+  }
+
+  100% {
+    color: #7c9a68;
+  }
+}
+
 .c1 {
   background: linear-gradient(45deg, #63e2ff, #c463ff);
 }
@@ -683,14 +701,14 @@ header.fixed #logo {
 .picture img {
   position: relative;
   width: 130px;
-  top: -60px;
+  top: -75px;
   z-index: 1;
 }
 
 .icon img {
   position: relative;
   width: 130px;
-  top: -60px;
+  top: -50px;
   z-index: 1;
 }
 
@@ -706,12 +724,23 @@ header.fixed #logo {
 
 .price span {
   position: absolute;
-  top: 130px;
+  top: 122px;
   left: 35px;
+  font-size: 17px;
+  color: #474545;
+  font-weight: 700;
+  transform: skewY(-40deg);
+  text-decoration: line-through;
+}
+
+.prrice span {
+  position: absolute;
+  top: 82px;
+  left: 92px;
   font-size: 25px;
   color: #fff;
   font-weight: 700;
-  transform: skewY(-40deg);
+  text-decoration: underline;
 }
 
 .name1 {
